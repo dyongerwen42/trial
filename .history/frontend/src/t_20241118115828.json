@@ -1,0 +1,75 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "0002",
+    "projectName": "Project 2",
+    "address": "Coolsingel 105, 3012 AG Rotterdam",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": "",
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": "geen",
+    "contactPersonName": "Contactpersoon",
+    "contactPersonEmail": "contact@project.nl",
+    "contactPersonPhone": "0600000000",
+    "beheerderNaam": "Beheerder",
+    "beheerderAdres": "Beheeradres",
+    "beheerderPostcode": "1111AA",
+    "beheerderPlaats": "Beheerplaats",
+    "beheerderTelefoon": "0700000000",
+    "beheerderEmail": "beheer@beheer.nl"
+  },
+  "cashInfo": {
+    "currentCash": 0,
+    "monthlyContribution": 0,
+    "reserveDate": "2024-11-08T12:49:14.011Z",
+    "totalWorth": 0
+  },
+  "globalDocuments": [],
+
+  "globalSpaces": [
+    {
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "0ced9d26-fcf2-404f-9c1f-1ad16f145290"
+    },
+    {
+      "name": "Lobby",
+      "description": "De ontvangstruimte waar bezoekers worden verwelkomd.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd"
+    },
+    {
+      "id": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "name": "Algemeen"
+    }
+  ],
+  "offerGroups": [],
+  "updatedAt": {
+    "$date": "2024-11-18T10:55:26.221Z"
+  },
+  "updatedBy": {
+    "$oid": "6675fab2ee64bf818fa2ecd4"
+  }
+}

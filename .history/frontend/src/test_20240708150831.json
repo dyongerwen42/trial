@@ -1,0 +1,68 @@
+{
+  "_id": {
+    "$oid": "668be4bf80741fa5ef555ecb"
+  },
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "222222222",
+    "projectName": "2222222222",
+    "address": "",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": null,
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": ""
+  },
+  "cashInfo": {
+    "currentCash": "2222222222",
+    "monthlyContribution": "2222222",
+    "reserveDate": "2024-07-09T22:00:00.000Z",
+    "totalWorth": "222222"
+  },
+  "globalElements": [
+    {
+      "id": "467d327c-4187-4770-9da6-511abbd3e69a",
+      "name": "Dakbedekking",
+      "description": "Onderhoud van de dakbedekking om beschadigingen en slijtage te voorkomen.",
+      "interval": 12,
+      "spaceId": "9733b6c2-189d-4443-b68a-5efb2bcbb222",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "images": [
+            {}
+          ]
+        }
+      ]
+    }
+  ],
+  "globalSpaces": [
+    {
+      "id": "9733b6c2-189d-4443-b68a-5efb2bcbb222",
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": []
+    }
+  ],
+  "globalDocuments": [],
+  "inspectionReports": [],
+  "createdAt": {
+    "$date": "2024-07-08T13:08:15.177Z"
+  },
+  "createdBy": {
+    "$oid": "66742cf83811e30b0f2d10c4"
+  }
+}

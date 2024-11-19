@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Dak Onderhoud",
+      "elementName": "Gebouw A",
+      "tasks": [
+        {
+          "name": "Dakbedekking inspectie",
+          "price": 450.75,
+          "dueDate": "2024-08-20",
+          "paymentStatus": "betaald",
+          "file": "invoice1.pdf"
+        },
+        {
+          "name": "Reparatie dakgoot",
+          "price": 1250.00,
+          "dueDate": "2024-09-05",
+          "paymentStatus": "niet betaald",
+          "file": "invoice4.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Schilderwerk",
+      "elementName": "Gebouw B",
+      "tasks": [
+        {
+          "name": "Schilderwerk buitenkant",
+          "price": 980.50,
+          "dueDate": "2024-09-10",
+          "paymentStatus": "niet betaald",
+          "file": "invoice2.pdf"
+        },
+        {
+          "name": "Schilderwerk binnenkant",
+          "price": 1450.00,
+          "dueDate": "2024-09-20",
+          "paymentStatus": "betaald",
+          "file": "invoice5.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Tuinonderhoud",
+      "elementName": "Gebouw C",
+      "tasks": [
+        {
+          "name": "Maaiwerkzaamheden",
+          "price": 300.00,
+          "dueDate": "2024-09-15",
+          "paymentStatus": "betaald",
+          "file": "invoice3.pdf"
+        },
+        {
+          "name": "Snoeiwerkzaamheden",
+          "price": 200.00,
+          "dueDate": "2024-10-01",
+          "paymentStatus": "niet betaald",
+          "file": "invoice6.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Elektrisch onderhoud",
+      "elementName": "Gebouw D",
+      "tasks": [
+        {
+          "name": "Controle noodverlichting",
+          "price": 600.00,
+          "dueDate": "2024-09-25",
+          "paymentStatus": "betaald",
+          "file": "invoice7.pdf"
+        },
+        {
+          "name": "Installatie zonnepanelen",
+          "price": 5000.00,
+          "dueDate": "2024-10-10",
+          "paymentStatus": "niet betaald",
+          "file": "invoice8.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Lift Onderhoud",
+      "elementName": "Gebouw E",
+      "tasks": [
+        {
+          "name": "Jaarlijkse controle",
+          "price": 850.00,
+          "dueDate": "2024-08-12",  // Overdue
+          "paymentStatus": "betaald",
+          "file": "invoice9.pdf"
+        },
+        {
+          "name": "Modernisering lift",
+          "price": 3000.00,
+          "dueDate": "2024-10-05",
+          "paymentStatus": "niet betaald",
+          "file": "invoice10.pdf"
+        }
+      ]
+    }
+  ]
+  

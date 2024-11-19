@@ -1,0 +1,289 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "0002",
+    "projectName": "Project 2",
+    "address": "Coolsingel 105, 3012 AG Rotterdam",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": "",
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": "geen",
+    "contactPersonName": "Contactpersoon",
+    "contactPersonEmail": "contact@project.nl",
+    "contactPersonPhone": "0600000000",
+    "beheerderNaam": "Beheerder",
+    "beheerderAdres": "Beheeradres",
+    "beheerderPostcode": "1111AA",
+    "beheerderPlaats": "Beheerplaats",
+    "beheerderTelefoon": "0700000000",
+    "beheerderEmail": "beheer@beheer.nl"
+  },
+  "cashInfo": {
+    "currentCash": 0,
+    "monthlyContribution": 0,
+    "reserveDate": "2024-11-08T12:49:14.011Z",
+    "totalWorth": 0
+  },
+  "globalDocuments": [],
+  "globalElements": [
+    {
+      "id": "c442715f-0512-4b0d-8e53-885410c1534f",
+      "name": "binnenwanden",
+      "spaceId": "0ced9d26-fcf2-404f-9c1f-1ad16f145290",
+      "type": "constructief algemeen",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {},
+      "inspectionReport": [
+        {
+          "id": "5f7d7391-d1d7-4c34-aecf-c44a4d66845c",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": [],
+      "categories": [
+        "ventilatie en verwarming",
+        "schilderwerk"
+      ],
+      "tasks": [
+        {
+          "id": "891979bf-6e79-4398-96bf-13549a57ec10",
+          "name": "Herstellen van ventilatiekanalen",
+          "description": "Beschadigde kanalen herstellen voor goede luchtkwaliteit.",
+          "urgency": 3,
+          "spaceName": "Entree",
+          "elementName": "binnenwanden",
+          "ultimateDate": "2024-11-13T16:08:53.313Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": "2024-11-13T16:08:53.313Z",
+            "endDate": "2024-11-13T16:08:53.313Z",
+            "offerAccepted": true
+          }
+        },
+        {
+          "id": "a865d0c8-6329-48b6-9765-45148f40982a",
+          "name": "Repareren van verwarmingselementen",
+          "description": "Defecte elementen repareren voor optimale werking.",
+          "urgency": 3,
+          "spaceName": "Entree",
+          "elementName": "binnenwanden",
+          "ultimateDate": "2024-11-13T16:08:53.314Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": "2024-11-13T16:08:53.314Z",
+            "endDate": "2024-11-13T16:08:53.314Z",
+            "offerAccepted": true
+          }
+        },
+        {
+          "id": "94a284e3-2610-4a02-9d99-e5e46e97f064",
+          "name": "Condensafvoer repareren",
+          "description": "Condensafvoer herstellen om lekkages te voorkomen.",
+          "urgency": 3,
+          "spaceName": "Entree",
+          "elementName": "binnenwanden",
+          "ultimateDate": "2024-11-13T16:08:53.314Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": "2024-11-13T16:08:53.314Z",
+            "endDate": "2024-11-13T16:08:53.314Z",
+            "offerAccepted": true
+          }
+        },
+        {
+          "id": "8f4011fe-c5c2-4574-844b-f8c118ff433b",
+          "name": "Repareren van thermostaten",
+          "description": "Defecte thermostaten herstellen voor temperatuurregeling.",
+          "urgency": 3,
+          "spaceName": "Entree",
+          "elementName": "binnenwanden",
+          "ultimateDate": "2024-11-13T16:10:00.157Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": "2024-11-13T16:10:00.157Z",
+            "endDate": "2024-11-13T16:10:00.157Z",
+            "offerAccepted": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "5706f1e5-de2f-4f1b-a115-33f6fec2f403",
+      "name": "funderingsconstructies",
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "type": "voeten en balken algemeen",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "categories": [
+        "elektrisch onderhoud"
+      ],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "63c33175-8049-4d8a-8361-584f4564e823",
+      "name": "Algemeen",
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "tasks": [],
+      "categories": [
+        "default"
+      ],
+      "inspectionReport": [],
+      "gebreken": {}
+    },
+    {
+      "id": "a2231330-e555-4c97-b042-3bcf1ec67f1a",
+      "name": "binnenwanden",
+      "description": "vfddfgfdg",
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "type": "niet constructief algemeen ",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "categories": [],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "name": "paalfunderingen",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "gebreken": {},
+      "categories": [
+        "ventilatie en verwarming"
+      ],
+      "type": "niet geheid algemeen",
+      "material": "hout",
+      "unitType": "",
+      "quantity": "",
+      "id": "01687fe2-be51-4af8-b630-a087c3f15eb8",
+      "inspectionReport": []
+    },
+    {
+      "name": "funderingsconstructies",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "0ced9d26-fcf2-404f-9c1f-1ad16f145290",
+      "gebreken": {},
+      "type": "voeten en balken algemeen",
+      "material": "beton",
+      "unitType": "",
+      "quantity": "",
+      "id": "16c914f5-3e9d-4a36-8785-d8273ed75723",
+      "inspectionReport": []
+    },
+    {
+      "name": "paalfunderingen",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "gebreken": {},
+      "type": "niet geheid algemeen",
+      "material": "hout",
+      "unitType": "",
+      "quantity": "",
+      "id": "9489b28d-29d1-4974-8684-0e0db9f24f17",
+      "inspectionReport": []
+    },
+    {
+      "name": "vloeren op grondslag",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "gebreken": {},
+      "type": "constructief algemeen",
+      "material": "Other",
+      "unitType": "",
+      "quantity": "",
+      "id": "566e4728-0e9d-4ff0-975c-2bb61fc63ac5",
+      "inspectionReport": []
+    }
+  ],
+  "globalSpaces": [
+    {
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "0ced9d26-fcf2-404f-9c1f-1ad16f145290"
+    },
+    {
+      "name": "Lobby",
+      "description": "De ontvangstruimte waar bezoekers worden verwelkomd.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd"
+    },
+    {
+      "id": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "name": "Algemeen"
+    }
+  ],
+  "offerGroups": [],
+  "updatedAt": {
+    "$date": "2024-11-16T22:44:27.482Z"
+  },
+  "updatedBy": {
+    "$oid": "6675fab2ee64bf818fa2ecd4"
+  }
+}

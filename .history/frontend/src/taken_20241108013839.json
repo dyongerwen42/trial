@@ -1,0 +1,755 @@
+{
+    "onderhoudstaken": {
+      "schilderwerk": {
+        "reparaties": [
+          {
+            "beschrijving": "Herstellen van beschadigingen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Kleine beschadigingen aan de verflaag herstellen om verdere schade te voorkomen."
+          },
+          {
+            "beschrijving": "Behandelen van houtrot",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Houtrot verwijderen en behandelen om de integriteit van het hout te behouden."
+          },
+          {
+            "beschrijving": "Bijwerken van verf",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Kleine verfwerkzaamheden uitvoeren om het uiterlijk te behouden."
+          },
+          {
+            "beschrijving": "Repareren van gebarsten verflagen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Gebarsten verf verwijderen en opnieuw schilderen om bescherming te garanderen."
+          },
+          {
+            "beschrijving": "Verwijderen van afgebladderde verf",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Afgebladderde verf verwijderen om onderliggende lagen te beschermen."
+          },
+          {
+            "beschrijving": "Opvullen van scheuren in de verflaag",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Scheuren opvullen om vochtindringing te voorkomen."
+          },
+          {
+            "beschrijving": "Schuren van oppervlakken voor nieuw schilderwerk",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Oppervlakken voorbereiden voor betere hechting van verf."
+          },
+          {
+            "beschrijving": "Verwijderen van oude verflagen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Oude verf verwijderen om een glad oppervlak te verkrijgen."
+          },
+          {
+            "beschrijving": "Herstellen van vochtplekken",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Vochtplekken behandelen om schimmelvorming te voorkomen."
+          },
+          {
+            "beschrijving": "Aanbrengen van grondverf op kale plekken",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Grondverf aanbrengen voor betere dekking en duurzaamheid."
+          },
+          {
+            "beschrijving": "Repareren van beschadigde plinten",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Plinten herstellen voor een nette afwerking."
+          },
+          {
+            "beschrijving": "Vernieuwen van kitnaden",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Versleten kitnaden vervangen om vochtproblemen te voorkomen."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Schilderen",
+            "interval": 72,
+            "maanden": [5, 6, 7, 8, 9],
+            "prioriteit": 6,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Het aanbrengen van een nieuwe verflaag voor bescherming en een verzorgd uiterlijk."
+          },
+          {
+            "beschrijving": "Vernissen",
+            "interval": 48,
+            "maanden": [5, 6, 7, 8, 9],
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Aanbrengen van vernis voor bescherming van houtoppervlakken."
+          },
+          {
+            "beschrijving": "Beitsen",
+            "interval": 36,
+            "maanden": [5, 6, 7, 8, 9],
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Beits aanbrengen om hout te beschermen tegen weersinvloeden."
+          },
+          {
+            "beschrijving": "Aanbrengen van beschermende coatings",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Extra beschermlaag aanbrengen voor langere levensduur."
+          },
+          {
+            "beschrijving": "Regelmatig onderhoud van verflaag",
+            "interval": 36,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Inspectie en kleine reparaties om de verflaag in goede staat te houden."
+          },
+          {
+            "beschrijving": "Schilderen van binnenmuren",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Het interieur opfrissen met nieuwe verf."
+          },
+          {
+            "beschrijving": "Schilderen van kozijnen en deuren",
+            "interval": 48,
+            "prioriteit": 5,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Kozijnen en deuren schilderen voor bescherming en esthetiek."
+          },
+          {
+            "beschrijving": "Aanbrengen van anti-schimmelverf",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Anti-schimmelverf aanbrengen in vochtige ruimtes."
+          },
+          {
+            "beschrijving": "Schilderen van metalen oppervlakken",
+            "interval": 48,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Bescherming tegen roest en corrosie."
+          },
+          {
+            "beschrijving": "Beoordelen van kleurvastheid en bijwerken",
+            "interval": 24,
+            "prioriteit": 4,
+            "verantwoordelijke": "schilder",
+            "toelichting": "Kleurverschillen corrigeren voor uniformiteit."
+          }
+        ]
+      },
+      "timmerwerk": {
+        "reparaties": [
+          {
+            "beschrijving": "Repareren van houtverbindingen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Herstellen van losse of beschadigde houtverbindingen."
+          },
+          {
+            "beschrijving": "Herstellen van beschadigde onderdelen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Vervangen of repareren van beschadigd houtwerk."
+          },
+          {
+            "beschrijving": "Verwijderen van rot hout",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Rot hout verwijderen om verdere schade te voorkomen."
+          },
+          {
+            "beschrijving": "Vervangen van losse onderdelen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Losse houten onderdelen vervangen voor veiligheid."
+          },
+          {
+            "beschrijving": "Herstellen van houtschade door vocht",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Vochtgerelateerde schade herstellen om de structurele integriteit te behouden."
+          },
+          {
+            "beschrijving": "Vervangen van houtwerk",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Oud of beschadigd houtwerk vervangen indien reparatie niet mogelijk is."
+          },
+          {
+            "beschrijving": "Repareren van ramen en kozijnen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Beschadigde ramen en kozijnen herstellen voor isolatie en veiligheid."
+          },
+          {
+            "beschrijving": "Herstellen van traptreden",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Beschadigde traptreden repareren om valgevaar te verminderen."
+          },
+          {
+            "beschrijving": "Vervangen van verrotte balken",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Structurele integriteit waarborgen door verrotte balken te vervangen."
+          },
+          {
+            "beschrijving": "Herstellen van deurkozijnen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Beschadigde deurkozijnen repareren voor correcte werking."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Onderhoud van houtconstructies",
+            "interval": 36,
+            "maanden": [4, 5, 6, 7, 8, 9],
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Regelmatige inspectie en onderhoud van houten structuren."
+          },
+          {
+            "beschrijving": "Periodiek onderhoud van houtwerk",
+            "interval": 36,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Preventief onderhoud om de levensduur te verlengen."
+          },
+          {
+            "beschrijving": "Behandelen van hout tegen insecten",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Bescherming tegen houtaantastende insecten."
+          },
+          {
+            "beschrijving": "Smeren van scharnieren en sluitingen",
+            "interval": 12,
+            "prioriteit": 4,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Zorgen voor soepele werking van deuren en ramen."
+          },
+          {
+            "beschrijving": "Controle van houten vloeren",
+            "interval": 24,
+            "prioriteit": 4,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Inspectie op slijtage en beschadigingen."
+          },
+          {
+            "beschrijving": "Onderhoud van houten gevelbekleding",
+            "interval": 48,
+            "prioriteit": 5,
+            "verantwoordelijke": "timmerman",
+            "toelichting": "Bescherming tegen weersinvloeden en esthetisch behoud."
+          }
+        ]
+      },
+      "dakwerk": {
+        "reparaties": [
+          {
+            "beschrijving": "Herstellen van lekkages",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Snel repareren van lekkages om waterschade te voorkomen."
+          },
+          {
+            "beschrijving": "Repareren van afvoeren",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Herstellen van dakafvoeren voor goede waterafvoer."
+          },
+          {
+            "beschrijving": "Aanbrengen van dakisolatie",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Isolatie toevoegen om het comfort in het gebouw te verbeteren."
+          },
+          {
+            "beschrijving": "Vervangen van beschadigde dakpannen",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Beschadigde dakpannen vervangen om lekkages te voorkomen."
+          },
+          {
+            "beschrijving": "Herstellen van dakranden",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Dakranden repareren voor bescherming tegen wind en regen."
+          },
+          {
+            "beschrijving": "Repareren van dakconstructie",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Structurele schade aan het dak herstellen."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Reinigen van dakoppervlak",
+            "interval": 12,
+            "maanden": [3, 4, 9, 10],
+            "prioriteit": 4,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Verwijderen van vuil en puin om het dak in goede staat te houden."
+          },
+          {
+            "beschrijving": "Verwijderen van mos en algen",
+            "interval": 12,
+            "maanden": [3, 4, 9, 10],
+            "prioriteit": 4,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Mos en algen verwijderen om de dakbedekking te beschermen."
+          },
+          {
+            "beschrijving": "Vervangen van dakbedekking",
+            "interval": 240,
+            "prioriteit": 3,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Dakbedekking vervangen om lekken en schade te voorkomen."
+          },
+          {
+            "beschrijving": "Preventief onderhoud van dakafwerking",
+            "interval": 12,
+            "prioriteit": 4,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Jaarlijkse inspectie en kleine reparaties uitvoeren."
+          },
+          {
+            "beschrijving": "Controle van dakgoten en regenpijpen",
+            "interval": 12,
+            "prioriteit": 5,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Zorgen voor goede waterafvoer."
+          },
+          {
+            "beschrijving": "Inspectie van dakconstructie",
+            "interval": 24,
+            "prioriteit": 5,
+            "verantwoordelijke": "dakdekker",
+            "toelichting": "Structurele integriteit van het dak controleren."
+          }
+        ]
+      },
+      "metselwerk en gevelonderhoud": {
+        "reparaties": [
+          {
+            "beschrijving": "Voegen herstellen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Beschadigde voegen repareren om vochtindringing te voorkomen."
+          },
+          {
+            "beschrijving": "Scheuren in metselwerk repareren",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Scheuren herstellen om de structurele integriteit te waarborgen."
+          },
+          {
+            "beschrijving": "Vervangen van beschadigde stenen",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Beschadigde stenen vervangen voor esthetiek en veiligheid."
+          },
+          {
+            "beschrijving": "Herstellen van loszittende gevelbekleding",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Loszittende delen vastzetten om gevaar te voorkomen."
+          },
+          {
+            "beschrijving": "Repareren van funderingsscheuren",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "constructie-expert",
+            "toelichting": "Funderingsproblemen oplossen om structurele schade te voorkomen."
+          },
+          {
+            "beschrijving": "Herstellen van beschadigde sierlijsten",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Sierlijsten repareren voor esthetisch behoud."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Gevelrenovatie",
+            "interval": 300,
+            "prioriteit": 3,
+            "verantwoordelijke": "metselaar",
+            "toelichting": "Grote renovatie om de gevel in optimale staat te houden."
+          },
+          {
+            "beschrijving": "Reinigen van gevels",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "gevelspecialist",
+            "toelichting": "Verwijderen van vuil en aanslag voor een verzorgd uiterlijk."
+          },
+          {
+            "beschrijving": "Aanbrengen van gevelcoating",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "gevelspecialist",
+            "toelichting": "Beschermende laag aanbrengen tegen weersinvloeden."
+          },
+          {
+            "beschrijving": "Hydrofoberen van gevels",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "gevelspecialist",
+            "toelichting": "De gevel waterafstotend maken om vochtproblemen te voorkomen."
+          },
+          {
+            "beschrijving": "Inspectie van gevelankers",
+            "interval": 120,
+            "prioriteit": 5,
+            "verantwoordelijke": "constructie-expert",
+            "toelichting": "Controle op veiligheid en stabiliteit."
+          },
+          {
+            "beschrijving": "Onderhoud van natuurstenen gevels",
+            "interval": 72,
+            "prioriteit": 4,
+            "verantwoordelijke": "gevelspecialist",
+            "toelichting": "Bescherming en behoud van natuursteen."
+          }
+        ]
+      },
+      "sanitair en loodgieterswerk": {
+        "reparaties": [
+          {
+            "beschrijving": "Repareren van lekkages",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Snel verhelpen van lekkages om waterschade te voorkomen."
+          },
+          {
+            "beschrijving": "Ontstoppen van afvoeren",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Afvoeren ontstoppen voor goede waterafvoer."
+          },
+          {
+            "beschrijving": "Vervangen van afdichtingen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Versleten afdichtingen vervangen om lekkages te voorkomen."
+          },
+          {
+            "beschrijving": "Herstellen van kapotte leidingen",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Beschadigde leidingen repareren om storingen te voorkomen."
+          },
+          {
+            "beschrijving": "Vervangen van leidingen",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Oude leidingen vervangen om de waterkwaliteit te behouden."
+          },
+          {
+            "beschrijving": "Isoleren van leidingen",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Leidingen isoleren om warmteverlies te verminderen."
+          },
+          {
+            "beschrijving": "Repareren van kapotte kranen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Defecte kranen herstellen voor optimaal gebruik."
+          },
+          {
+            "beschrijving": "Herstellen van toiletten",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Toiletten repareren voor hygiëne en comfort."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Onderhoud van riolering",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Preventief onderhoud om verstoppingen te voorkomen."
+          },
+          {
+            "beschrijving": "Reinigen van afvoersystemen",
+            "interval": 36,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Afvoeren reinigen voor optimale doorstroming."
+          },
+          {
+            "beschrijving": "Controle van waterdruk",
+            "interval": 12,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Zorgen voor een constante waterdruk."
+          },
+          {
+            "beschrijving": "Ontkalken van leidingen",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Kalkaanslag verwijderen om doorstroming te behouden."
+          },
+          {
+            "beschrijving": "Onderhoud van boilers en geisers",
+            "interval": 24,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Efficiënte werking en veiligheid waarborgen."
+          },
+          {
+            "beschrijving": "Controle van sanitaire voorzieningen",
+            "interval": 12,
+            "prioriteit": 5,
+            "verantwoordelijke": "loodgieter",
+            "toelichting": "Hygiëne en functionaliteit garanderen."
+          }
+        ]
+      },
+      "ventilatie en verwarming": {
+        "reparaties": [
+          {
+            "beschrijving": "Repareren van verwarmingselementen",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Defecte elementen repareren voor optimale werking."
+          },
+          {
+            "beschrijving": "Herstellen van ventilatiekanalen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Beschadigde kanalen herstellen voor goede luchtkwaliteit."
+          },
+          {
+            "beschrijving": "Condensafvoer repareren",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Condensafvoer herstellen om lekkages te voorkomen."
+          },
+          {
+            "beschrijving": "Repareren van thermostaten",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Defecte thermostaten herstellen voor temperatuurregeling."
+          },
+          {
+            "beschrijving": "Herstellen van warmtepompen",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Warmtepompen repareren voor energie-efficiëntie."
+          },
+          {
+            "beschrijving": "Repareren van luchtroosters",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Beschadigde roosters vervangen voor luchtkwaliteit."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Onderhoud van verwarmingssystemen",
+            "interval": 12,
+            "maanden": [9, 10],
+            "prioriteit": 6,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Jaarlijks onderhoud voor efficiënte werking."
+          },
+          {
+            "beschrijving": "Reinigen van ventilatiesystemen",
+            "interval": 12,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Ventilatiesystemen reinigen voor goede luchtkwaliteit."
+          },
+          {
+            "beschrijving": "Vervangen van filters",
+            "interval": 6,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Filters vervangen om optimale werking te behouden."
+          },
+          {
+            "beschrijving": "Afstellen van verwarmings- en ventilatiesystemen",
+            "interval": 12,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Systemen afstellen voor optimale prestaties."
+          },
+          {
+            "beschrijving": "Bijvullen en controleren van systemen",
+            "interval": 12,
+            "prioriteit": 5,
+            "verantwoordelijke": "installateur",
+            "toelichting": "Vloeistofniveaus controleren en bijvullen indien nodig."
+          },
+          {
+            "beschrijving": "Energie-audit van verwarmingssysteem",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "energieadviseur",
+            "toelichting": "Efficiëntie beoordelen en optimaliseren."
+          }
+        ]
+      },
+      "elektrisch onderhoud": {
+        "reparaties": [
+          {
+            "beschrijving": "Repareren van elektrische bedrading",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Defecte bedrading repareren om veiligheidsrisico's te voorkomen."
+          },
+          {
+            "beschrijving": "Vervangen van defecte schakelaars",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Schakelaars vervangen voor veilig gebruik."
+          },
+          {
+            "beschrijving": "Herstellen van stopcontacten",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Defecte stopcontacten repareren voor continuïteit."
+          },
+          {
+            "beschrijving": "Upgraden van elektrische systemen",
+            "interval": false,
+            "prioriteit": 4,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Systemen upgraden voor betere prestaties."
+          },
+          {
+            "beschrijving": "Repareren van noodstroomvoorziening",
+            "interval": false,
+            "prioriteit": 6,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Noodstroomvoorziening herstellen voor back-up stroom."
+          },
+          {
+            "beschrijving": "Herstellen van intercomsystemen",
+            "interval": false,
+            "prioriteit": 5,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Intercom repareren voor communicatie."
+          }
+        ],
+        "onderhoud": [
+          {
+            "beschrijving": "Onderhouden van elektrische installaties",
+            "interval": 60,
+            "prioriteit": 5,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Periodieke inspectie om veiligheid te waarborgen."
+          },
+          {
+            "beschrijving": "Controleren van noodstroomvoorzieningen",
+            "interval": 12,
+            "prioriteit": 6,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Noodstroom testen voor betrouwbaarheid."
+          },
+          {
+            "beschrijving": "Vervangen van verlichting",
+            "interval": 120,
+            "prioriteit": 4,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Verlichting vervangen voor optimale lichtopbrengst."
+          },
+          {
+            "beschrijving": "Controleren van aardlekschakelaars",
+            "interval": 12,
+            "prioriteit": 6,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Aardlekschakelaars testen voor veiligheid."
+          },
+          {
+            "beschrijving": "Testen van elektrische installaties",
+            "interval": 36,
+            "prioriteit": 5,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Uitvoeren van uitgebreide tests om storingen te voorkomen."
+          },
+          {
+            "beschrijving": "Energiebesparende maatregelen implementeren",
+            "interval": 60,
+            "prioriteit": 4,
+            "verantwoordelijke": "elektricien",
+            "toelichting": "Energie-efficiëntie verbeteren."
+          }
+        ]
+      }
+      // De overige categorieën worden op dezelfde manier uitgebreid.
+    }
+  }
+  

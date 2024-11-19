@@ -1,0 +1,128 @@
+{
+  "_id": {
+    "$oid": "66e2a5c6ff81869da7c0840d"
+  },
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "002",
+    "projectName": "De scheapmaker",
+    "address": "scheepmakershaven 56 te Rotterdam",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": "uploads\\1726129523934-scheepmakershaven-56-78_1169.jpg",
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": "geen",
+    "contactPersonName": "Bob",
+    "contactPersonEmail": "vve@scheapmaker.nl",
+    "contactPersonPhone": "06555555555",
+    "beheerderNaam": "vve beheerder",
+    "beheerderAdres": "vve ",
+    "beheerderPostcode": "1111am",
+    "beheerderPlaats": "Amsterdam",
+    "beheerderTelefoon": "08555555555",
+    "beheerderEmail": "vve@beheerder.nl"
+  },
+  "cashInfo": {
+    "currentCash": "120000",
+    "monthlyContribution": "3000",
+    "reserveDate": "2024-09-11T22:00:00.000Z",
+    "totalWorth": "1000000"
+  },
+  "globalElements": [
+    {
+      "id": "d242ce77-dd08-4b20-9c73-7b86eac3e5b2",
+      "name": "Luchtbehandeling",
+      "description": "uitgnagne op het dak ",
+      "interval": "12",
+      "spaceId": "84fae9b2-2d5b-4b65-b172-1e9d1453c26e",
+      "type": "Centraal: Mechanische afzuiging",
+      "material": "Luchtkanalen",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1726176995848-dak_foto.png"
+      ],
+      "documents": [],
+      "gebreken": {
+        "ernstig": [
+          "Defecten",
+          "Scheuren of gaten",
+          "Corrosie",
+          "Onjuiste type",
+          "Ontbrekende delen"
+        ],
+        "serieus": [
+          "Lekkage medium",
+          "Deuken",
+          "Onjuist gedimensioneerde componenten",
+          "Ontbreken van onderdelen",
+          "Capaciteit onvoldoende.1"
+        ],
+        "gering": [
+          "Vervuiling",
+          "Afgeplakte ornamenten",
+          "Krassen",
+          "Beschadigde en/of ontbrekende bevestigingsmiddelen",
+          "Onjuiste montage"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.15578853168345244,
+          "y": 0.22600624119506862,
+          "width": 0.08913673720032589,
+          "height": -0.06442939615360532
+        }
+      ]
+    }
+  ],
+  "globalSpaces": [
+    {
+      "name": "dak",
+      "description": "Het dak van het gebouw ",
+      "photos": [
+        "uploads\\1726129964990-dak_foto.png"
+      ],
+      "documents": [],
+      "image": "uploads/1726129984025-dak.png",
+      "annotations": [
+        {
+          "x": 0.003161222339304531,
+          "y": 0.00916446499339498,
+          "width": 0.9989462592202318,
+          "height": 0.8612945838837517
+        }
+      ],
+      "id": "84fae9b2-2d5b-4b65-b172-1e9d1453c26e"
+    }
+  ],
+  "globalDocuments": [],
+  "offerGroups": [],
+  "createdAt": {
+    "$date": "2024-09-12T08:26:46.390Z"
+  },
+  "createdBy": {
+    "$oid": "66742cf83811e30b0f2d10c4"
+  },
+  "updatedAt": {
+    "$date": "2024-09-13T11:33:03.895Z"
+  },
+  "updatedBy": {
+    "$oid": "6675fab2ee64bf818fa2ecd4"
+  }
+}
