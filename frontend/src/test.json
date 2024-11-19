@@ -1,0 +1,1754 @@
+{
+  "_id": {
+    "$oid": "66b7bbe815600717c38d6da6"
+  },
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "00001rt",
+    "projectName": "vve de nachtegaal",
+    "address": "teststraat 1",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": "uploads\\1723317354006-De-Leeuwerik-Halsteren-Bouwgroep-Schrijver-3.png",
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": "geen opmerkingen",
+    "contactPersonName": "Thierry Henrich",
+    "contactPersonEmail": "contact@tha-diensten.nl",
+    "contactPersonPhone": "0850601982",
+    "beheerderNaam": "vve beheersbedrijf ",
+    "beheerderAdres": "teststraat 2",
+    "beheerderPostcode": "1919am",
+    "beheerderPlaats": "Amsterdam",
+    "beheerderTelefoon": "065555555555",
+    "beheerderEmail": "vvebbeheer@email.com"
+  },
+  "cashInfo": {
+    "currentCash": "150000",
+    "monthlyContribution": "500",
+    "reserveDate": "2024-08-09T22:00:00.000Z",
+    "totalWorth": "100000"
+  },
+  "globalElements": [
+    {
+      "id": "9f6beef4-cedd-4199-ba12-f3abb70e1618",
+      "name": "trappen en hellingen",
+      "description": "Trappen en hellingen moeten regelmatig worden gecontroleerd op veiligheid en slijtage. Inspecties elke 24 maanden zijn aanbevolen.",
+      "interval": 24,
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "trappen algemeen",
+      "material": "beton ",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723367682558-70e6934f-e89a-4a06-a6b5-7b3d7d4af17d.webp"
+      ],
+      "documents": [],
+      "gebreken": {
+        "ernstig": [
+          "Scheuren constructief",
+          "Verankering, manco",
+          "Verzakking constructief",
+          "Wapening, manco",
+          "Breuk",
+          "Carbonatatie"
+        ],
+        "serieus": [
+          "Ontbrekende (onder-)delen",
+          "Scheuren niet constructief",
+          "Afbrokkelen afboeren",
+          "Beschadiging",
+          "Losliggende afwerking",
+          "Aantasting afwerklaag",
+          "Dekking onvoldoende"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "27789995-6934-45d2-9ddc-ca07b5c5c3a6",
+          "description": "Trappen en hellingen moeten regelmatig worden gecontroleerd op veiligheid en slijtage. Inspecties elke 24 maanden zijn aanbevolen.",
+          "inspectionDone": true,
+          "inspectionDate": "2024-08-30",
+          "tasks": [],
+          "name": "trappen en hellingen",
+          "images": [],
+          "documents": [],
+          "mistakes": [
+            {
+              "id": "6727fa28-56ee-4372-9bee-305ce0c13ead",
+              "category": "Scheuren niet constructief",
+              "severity": "ernstig",
+              "omvang": "2",
+              "description": "mimimale schuurtjes nog niet ebalngrijk ",
+              "images": []
+            },
+            {
+              "id": "ae1cefd1-6257-4bf7-bf98-c5e64be62138",
+              "category": "Aantasting afwerklaag",
+              "severity": "serieus",
+              "omvang": "80",
+              "description": "de afwerklaag is er afgesleten",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 5
+        },
+        {
+          "id": "ba8f2dc3-a219-45ca-af9a-1919b1d191ad",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2026-08-30",
+          "mistakes": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.4445945945945946,
+          "y": 0.6327702702702702,
+          "width": 0.04459459459459458,
+          "height": 0.07702702702702713
+        },
+        {
+          "x": 0.5121621621621621,
+          "y": 0.6246621621621622,
+          "width": 0.037837837837837895,
+          "height": 0.07027027027027022
+        }
+      ],
+      "tasks": [
+        {
+          "id": "1724644d-a250-4ef9-b36c-8038e1863410",
+          "name": "afwerklaag toepassen",
+          "description": "de afgesleten afwerklaag moetn weer opnieuw worden toegpast op alle verdiepingen",
+          "estimatedPrice": "7000",
+          "ultimateDate": "2024-10-13",
+          "urgency": "2",
+          "images": [
+            "uploads\\1723585642089-dc3ddca0-ca30-41f4-b13a-35bd622353df.webp"
+          ],
+          "documents": [],
+          "planned": {
+            "workDate": "2024-08-31T22:00:00.000Z",
+            "offerFiles": [
+              "uploads\\1723932621013-Factuur-template-blauw-BTW.pdf"
+            ],
+            "invoiceFiles": [
+              "uploads\\1723932628582-Factuur-template-blauw-BTW.pdf"
+            ],
+            "offerAccepted": true,
+            "startDate": "2025-08-31T22:00:00.000Z",
+            "endDate": "2024-09-30T22:00:00.000Z",
+            "offerPrice": null,
+            "invoicePrice": ""
+          },
+          "offerGroupId": "436ef2a8-f012-4fa6-9d8b-2bcd54127822"
+        }
+      ]
+    },
+    {
+      "id": "c696ca28-3b55-4c30-92a4-31cdeb820731",
+      "name": "balustrades en leuningen",
+      "description": "Balustrades en leuningen zorgen voor veiligheid en moeten elke 24 maanden worden geïnspecteerd op stabiliteit en slijtage.",
+      "interval": 24,
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "balustrades algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723545336172-af559cf3-885f-4df5-a21b-23e93b516331.webp"
+      ],
+      "documents": [
+        "uploads\\1723545340015-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Verankering, manco",
+          "Houtrot"
+        ],
+        "serieus": [
+          "Deformatie, scheefstand",
+          "Ontbrekende (onder-)delen",
+          "Stijfheid stabiliteit onvoldoende"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco",
+          "Subelementen manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "2b5617b7-a7af-441d-8696-25e563ff12fc",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2024-08-23",
+          "tasks": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.4486486486486487,
+          "y": 0.6300675675675675,
+          "width": 0.04594594594594592,
+          "height": 0.07567567567567568
+        },
+        {
+          "x": 0.5108108108108108,
+          "y": 0.6260135135135135,
+          "width": 0.04459459459459458,
+          "height": 0.06756756756756754
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "d8a2c502-e764-492f-b976-d3c14de80d95",
+      "name": "binnenwandopening",
+      "description": "Openingen in binnenwanden zoals deuren en ramen moeten elke 24 maanden worden geïnspecteerd om de functionaliteit en integriteit te waarborgen.",
+      "interval": 24,
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "gevuld met puien algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723547445376-82d4329b-355a-4e8b-8e0a-5ff10bd6e4de.webp"
+      ],
+      "documents": [
+        "uploads\\1723547449013-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Afdichting, manco",
+          "Kieren kouval"
+        ],
+        "serieus": [
+          "Deformatie, scheefstand",
+          "Ontbrekende (onder-)delen",
+          "Stijfheid stabiliteit onvoldoende",
+          "Beschadiging",
+          "Hang & sluitwerk, manco",
+          "Omtrekspeling onvoldoende"
+        ],
+        "gering": [
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "363518ce-14b0-42de-a492-86ee7eddf0ff",
+          "description": "Openingen in binnenwanden zoals deuren en ramen moeten elke 24 maanden worden geïnspecteerd om de functionaliteit en integriteit te waarborgen.",
+          "inspectionDone": true,
+          "inspectionDate": "2024-08-14",
+          "tasks": [],
+          "name": "binnenwandopening",
+          "images": [
+            "uploads\\1723562377005-download.jpeg"
+          ],
+          "documents": [
+            "uploads\\1723562381143-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+          ],
+          "mistakes": [
+            {
+              "id": "f71ddb0f-e823-4bed-827e-7f2ad42f020f",
+              "category": "Beschadiging",
+              "severity": "serieus",
+              "omvang": "20",
+              "description": "de kozijnenn zijn wat beschadigd lijkt op begin houtrot",
+              "images": [
+                "uploads\\1723562412479-download.jpeg"
+              ]
+            },
+            {
+              "id": "67db6d3c-16e5-421c-9f65-d412b34ce11e",
+              "category": "Vuil, aanslag, verkleuring",
+              "severity": "gering",
+              "omvang": "70",
+              "description": "de kleuren zijn  veel liochter dan oorsprokelijke kleur ",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 3,
+          "remarks": "deuren en kozijnen aan de bginnen zeide "
+        },
+        {
+          "id": "930f3669-b717-4ffa-ae7b-4223c92b315e",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2026-08-14",
+          "mistakes": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.47331081081081083,
+          "y": 0.7868243243243244,
+          "width": 0.060810810810810745,
+          "height": -0.01756756756756761
+        },
+        {
+          "x": 0.4503378378378378,
+          "y": 0.5543918918918919,
+          "width": 0.04054054054054057,
+          "height": 0.006756756756756799
+        },
+        {
+          "x": 0.5152027027027027,
+          "y": 0.5530405405405405,
+          "width": 0.03378378378378377,
+          "height": 0.010810810810810811
+        }
+      ],
+      "tasks": [
+        {
+          "id": "97f90947-41df-4ee7-86ea-6afa8e5f8671",
+          "name": "schlderwerk",
+          "description": "de binnen deuren en kozijnen moeten opnieuw geschilderd worden ",
+          "estimatedPrice": "2000",
+          "ultimateDate": "2025-12-13",
+          "urgency": 1,
+          "images": [
+            "uploads\\1723562802762-download.jpeg"
+          ],
+          "documents": [
+            "uploads\\1723562812286-297633.PDF"
+          ],
+          "planned": {
+            "workDate": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "2c7bfb26-633d-44f5-a458-af2c8a7d08c6",
+      "name": "buitenwandopeningen",
+      "description": "Openingen in buitenwanden zoals ramen en deuren moeten jaarlijks worden geïnspecteerd om te controleren op lekkages, slijtage van afdichtingen en algemene integriteit.",
+      "interval": 12,
+      "spaceId": "5ee3c37d-7529-4451-a5b4-a92833aa6e53",
+      "type": "gevuld met puien algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723547525088-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [
+        "uploads\\1723547528208-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Afdichting, manco",
+          "Lekkage ",
+          "Kieren kouval",
+          "Verankering, manco",
+          "Houtrot",
+          "Materiaaltoepassing foutief",
+          "Condens"
+        ],
+        "serieus": [
+          "Deformatie, scheefstand",
+          "Ontbrekende (onder-)delen",
+          "Openstaande verbindingen",
+          "Stijfheid stabiliteit onvoldoende",
+          "Beschadiging",
+          "Hang & sluitwerk, manco",
+          "Omtrekspeling onvoldoende"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco",
+          "Subelementen manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "c3be69ac-de31-4d71-9050-78093f587f92",
+          "description": "Openingen in buitenwanden zoals ramen en deuren moeten jaarlijks worden geïnspecteerd om te controleren op lekkages, slijtage van afdichtingen en algemene integriteit.",
+          "inspectionDone": true,
+          "inspectionDate": "2024-08-14",
+          "tasks": [],
+          "name": "buitenwandopeningen",
+          "images": [],
+          "documents": [],
+          "mistakes": [
+            {
+              "id": "c0c64fe9-1c15-44b7-826f-c29d4e448405",
+              "category": "Houtrot",
+              "severity": "ernstig",
+              "omvang": "10",
+              "description": "de kozijnen hebben houtrot ",
+              "images": [
+                "uploads\\1723587694105-iStock-15975187319726_DE.jpg"
+              ]
+            },
+            {
+              "id": "ca24f468-73a1-4df7-9b6a-c1a0d3a16750",
+              "category": "Beschadiging",
+              "severity": "serieus",
+              "omvang": "100",
+              "description": "schilderwerk moet gedaan worden",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 5
+        },
+        {
+          "id": "9c0b40fe-f0f3-4a20-95ea-5090672725d4",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2025-08-14",
+          "mistakes": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.06655405405405405,
+          "y": 0.3597972972972973,
+          "width": 0.12567567567567567,
+          "height": -0.01756756756756761
+        },
+        {
+          "x": 0.26385135135135135,
+          "y": 0.36114864864864865,
+          "width": 0.06351351351351353,
+          "height": -0.017567567567567555
+        },
+        {
+          "x": 0.40033783783783783,
+          "y": 0.3625,
+          "width": 0.06216216216216219,
+          "height": -0.018918918918918892
+        },
+        {
+          "x": 0.539527027027027,
+          "y": 0.3584459459459459,
+          "width": 0.06486486486486487,
+          "height": -0.013513513513513487
+        },
+        {
+          "x": 0.6746621621621621,
+          "y": 0.3638513513513513,
+          "width": 0.07027027027027033,
+          "height": -0.021621621621621623
+        },
+        {
+          "x": 0.9516891891891892,
+          "y": 0.6611486486486486,
+          "width": 0.01621621621621616,
+          "height": -0.05270270270270272
+        },
+        {
+          "x": 0.7773648648648649,
+          "y": 0.7881756756756757,
+          "width": 0.14729729729729724,
+          "height": -0.018918918918918948
+        },
+        {
+          "x": 0.6449324324324325,
+          "y": 0.7706081081081081,
+          "width": 0.0175675675675675,
+          "height": -0.04594594594594592
+        },
+        {
+          "x": 0.7557432432432433,
+          "y": 0.7638513513513514,
+          "width": 0.012162162162162149,
+          "height": -0.037837837837837895
+        },
+        {
+          "x": 0.658445945945946,
+          "y": 0.7233108108108108,
+          "width": 0.09459459459459463,
+          "height": -0.006756756756756799
+        },
+        {
+          "x": 0.47871621621621624,
+          "y": 0.7827702702702702,
+          "width": 0.04999999999999999,
+          "height": -0.010810810810810811
+        },
+        {
+          "x": 0.25033783783783786,
+          "y": 0.7246621621621622,
+          "width": 0.10135135135135132,
+          "height": -0.009459459459459474
+        },
+        {
+          "x": 0.23952702702702702,
+          "y": 0.7692567567567568,
+          "width": 0.01081081081081084,
+          "height": -0.043243243243243246
+        },
+        {
+          "x": 0.3530405405405405,
+          "y": 0.7692567567567568,
+          "width": 0.006756756756756799,
+          "height": -0.050000000000000044
+        },
+        {
+          "x": 0.08547297297297297,
+          "y": 0.7881756756756757,
+          "width": 0.1472972972972973,
+          "height": -0.013513513513513487
+        },
+        {
+          "x": 0.04222972972972973,
+          "y": 0.6570945945945946,
+          "width": 0.010810810810810811,
+          "height": -0.05270270270270272
+        }
+      ],
+      "tasks": [
+        {
+          "id": "f8315387-f9d9-477b-b2ce-a3bd171452d7",
+          "name": "schilderwerk en herstel",
+          "description": "het herstellen van kozijnen het houtrot en een nieuwe schilkderlaag",
+          "estimatedPrice": "1000",
+          "ultimateDate": "2025-09-14",
+          "urgency": "5",
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "d995712b-eecb-4827-96ae-3e5f9d0a953f",
+      "name": "vloeren",
+      "description": "Vloeren vormen de basis van elke ruimte en moeten elke 60 maanden worden geïnspecteerd om slijtage, scheuren en andere structurele problemen te detecteren.",
+      "interval": 60,
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "niet constructief algemeen",
+      "material": "onbepaald",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723547725603-82d4329b-355a-4e8b-8e0a-5ff10bd6e4de.webp"
+      ],
+      "documents": [
+        "uploads\\1723547728072-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Afdichting, manco",
+          "Lekkage ",
+          "Verankering, manco",
+          "Verzakking constructief",
+          "Wapening, manco",
+          "Breuk",
+          "Carbonatatie",
+          "Corrosie",
+          "Houtrot",
+          "Ongedierte",
+          "Onthechting van ondergrond",
+          "Kruip krimp, thermische werking"
+        ],
+        "serieus": [
+          "Afschot foutief",
+          "Doorbuiging",
+          "Scheuren niet constructief",
+          "Stijfheid stabiliteit onvoldoende",
+          "Afbrokkelen afboeren",
+          "Aantasting afwerklaag"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco",
+          "Subelementen manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "44ee6a89-de1d-4c05-96e0-779da2639c6a",
+          "description": "Vloeren vormen de basis van elke ruimte en moeten elke 60 maanden worden geïnspecteerd om slijtage, scheuren en andere structurele problemen te detecteren.",
+          "inspectionDone": true,
+          "inspectionDate": "2024-08-14",
+          "tasks": [],
+          "name": "vloeren",
+          "images": [],
+          "documents": [],
+          "mistakes": [
+            {
+              "id": "fc0266b0-838c-4815-9a71-9c6f133e48e1",
+              "category": "Vuil, aanslag, verkleuring",
+              "severity": "gering",
+              "omvang": "30",
+              "description": "moet een keeer goed gepower washed worden",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 2
+        },
+        {
+          "id": "374ee8e7-e66a-4555-834e-4567ad125260",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2029-08-14",
+          "mistakes": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.4503378378378378,
+          "y": 0.5692567567567568,
+          "width": 0.10540540540540538,
+          "height": 0.19594594594594594
+        }
+      ],
+      "tasks": [
+        {
+          "id": "fa5c8852-4943-444f-88d0-6fc24ff4c243",
+          "name": "vloer reinigen",
+          "description": "vloer laten reingen met een hige druk machine",
+          "estimatedPrice": "250",
+          "ultimateDate": "2024-11-14",
+          "urgency": "2",
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2024-08-31T22:00:00.000Z",
+            "offerPrice": null
+          },
+          "offerGroupId": "436ef2a8-f012-4fa6-9d8b-2bcd54127822"
+        }
+      ]
+    },
+    {
+      "id": "4bae5af7-029f-4394-a7e7-62ed924bd2b5",
+      "name": "buitenwanden",
+      "description": "Buitenwandconstructies moeten jaarlijks worden geïnspecteerd om schade door weersinvloeden en structurele problemen op te sporen.",
+      "interval": 12,
+      "spaceId": "5ee3c37d-7529-4451-a5b4-a92833aa6e53",
+      "type": "constructief algemeen",
+      "material": "metselwerk",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723547791974-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [],
+      "gebreken": {
+        "ernstig": [
+          "Afdichting, manco",
+          "Lekkage ",
+          "Vocht, doorslaand",
+          "Vocht, optrekkend",
+          "Ballast onvoldoende massa",
+          "Loszittend, onsamenhangend",
+          "Scheuren constructief",
+          "Verankering, manco",
+          "Kruip krimp, thermische werking",
+          "Koudebrug",
+          "Losse naden"
+        ],
+        "serieus": [
+          "Scheuren niet constructief",
+          "Afschilveren loszittend",
+          "Beschadiging",
+          "Erosie, verwering, verzanding",
+          "Aantasting afwerklaag",
+          "Dilatatie, niet intact "
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Graffity, bekladding",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco",
+          "Subelementen manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "1f20221c-6bf6-41c5-a274-1bc8445178a7",
+          "description": "Buitenwandconstructies moeten jaarlijks worden geïnspecteerd om schade door weersinvloeden en structurele problemen op te sporen.",
+          "inspectionDone": true,
+          "inspectionDate": "2024-08-14",
+          "tasks": [],
+          "name": "buitenwanden",
+          "images": [],
+          "documents": [],
+          "mistakes": [
+            {
+              "id": "1878ce65-5525-4eef-bd95-dcf403125b04",
+              "category": "Vuil, aanslag, verkleuring",
+              "severity": "gering",
+              "omvang": "80",
+              "description": "de gevl is vies en kan een keer een softwash gebruiken",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 3
+        },
+        {
+          "id": "f555a94e-a9ca-4397-9add-3231a178b586",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2025-08-14",
+          "mistakes": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.048986486486486486,
+          "y": 0.3543918918918919,
+          "width": 0.9189189189189189,
+          "height": 0.43243243243243246
+        }
+      ],
+      "tasks": [
+        {
+          "id": "a46d0d7a-7328-458f-a8ea-838c5215d096",
+          "name": "gevel reinigen",
+          "description": "de gevel laten reinigen door een softwash",
+          "estimatedPrice": "250",
+          "ultimateDate": "2025-06-14",
+          "urgency": 1,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2025-11-30T23:00:00.000Z",
+            "invoicePrice": "5000",
+            "offerPrice": "52000"
+          }
+        },
+        {
+          "id": "task-001",
+          "name": "Dakbedekking controleren",
+          "description": "Inspecteer de dakbedekking op slijtage en mogelijke lekkages.",
+          "estimatedPrice": "4000",
+          "ultimateDate": "2026-05-20",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-05-01T22:00:00.000Z",
+            "invoicePrice": "4000",
+            "offerPrice": "4500"
+          }
+        },
+        {
+          "id": "task-002",
+          "name": "Ventilatiesysteem schoonmaken",
+          "description": "Reinig het ventilatiesysteem om een goede luchtkwaliteit te garanderen.",
+          "estimatedPrice": "1500",
+          "ultimateDate": "2026-06-10",
+          "urgency": 3,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-05-25T22:00:00.000Z",
+            "invoicePrice": "1600",
+            "offerPrice": "1550"
+          }
+        },
+        {
+          "id": "task-003",
+          "name": "Reparatie van lekkende goten",
+          "description": "Repareer lekkende goten om waterschade te voorkomen.",
+          "estimatedPrice": "1200",
+          "ultimateDate": "2026-07-15",
+          "urgency": 4,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-07-01T22:00:00.000Z",
+            "invoicePrice": "1200",
+            "offerPrice": "1300"
+          }
+        },
+        {
+          "id": "task-004",
+          "name": "Schilderen van kozijnen",
+          "description": "Schilderwerk uitvoeren aan houten kozijnen om rotting te voorkomen.",
+          "estimatedPrice": "3500",
+          "ultimateDate": "2026-08-20",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-08-01T22:00:00.000Z",
+            "invoicePrice": "3500",
+            "offerPrice": "3600"
+          }
+        },
+        {
+          "id": "task-005",
+          "name": "Onderhoud aan lift",
+          "description": "Jaarlijks onderhoud van de lift om veiligheidsnormen te waarborgen.",
+          "estimatedPrice": "5000",
+          "ultimateDate": "2026-09-15",
+          "urgency": 1,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-09-01T22:00:00.000Z",
+            "invoicePrice": "5100",
+            "offerPrice": "5050"
+          }
+        },
+        {
+          "id": "task-006",
+          "name": "Vervangen van lampen in gemeenschappelijke ruimten",
+          "description": "Vervang alle lampen in gemeenschappelijke ruimten voor energiebesparende LED-lampen.",
+          "estimatedPrice": "2000",
+          "ultimateDate": "2026-10-10",
+          "urgency": 3,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-10-01T22:00:00.000Z",
+            "invoicePrice": "2100",
+            "offerPrice": "2200"
+          }
+        },
+        {
+          "id": "task-007",
+          "name": "Schoonmaak van parkeergarage",
+          "description": "Jaarlijkse schoonmaak van de parkeergarage met hogedrukreiniger.",
+          "estimatedPrice": "2500",
+          "ultimateDate": "2026-11-20",
+          "urgency": 4,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-11-05T22:00:00.000Z",
+            "invoicePrice": "2500",
+            "offerPrice": "2550"
+          }
+        },
+        {
+          "id": "task-008",
+          "name": "Vervangen van intercomsysteem",
+          "description": "Vervang het verouderde intercomsysteem voor een moderner systeem.",
+          "estimatedPrice": "6000",
+          "ultimateDate": "2026-12-10",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-11-25T22:00:00.000Z",
+            "invoicePrice": "6100",
+            "offerPrice": "6200"
+          }
+        },
+        {
+          "id": "task-009",
+          "name": "Inspectie brandveiligheid",
+          "description": "Controleer de rookmelders, brandblussers en nooduitgangen.",
+          "estimatedPrice": "1800",
+          "ultimateDate": "2026-12-15",
+          "urgency": 1,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2026-12-01T22:00:00.000Z",
+            "invoicePrice": "1850",
+            "offerPrice": "1900"
+          }
+        },
+        {
+          "id": "task-010",
+          "name": "Onderhoud CV-installatie",
+          "description": "Jaarlijks onderhoud van de centrale verwarmingsinstallatie.",
+          "estimatedPrice": "3500",
+          "ultimateDate": "2027-01-10",
+          "urgency": 3,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-01-01T22:00:00.000Z",
+            "invoicePrice": "3550",
+            "offerPrice": "3600"
+          }
+        },
+        {
+          "id": "task-011",
+          "name": "Reparatie lekkende daken",
+          "description": "Repareer lekkages in het dak om waterschade te voorkomen.",
+          "estimatedPrice": "5500",
+          "ultimateDate": "2027-02-15",
+          "urgency": 1,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-02-01T22:00:00.000Z",
+            "invoicePrice": "5600",
+            "offerPrice": "5700"
+          }
+        },
+        {
+          "id": "task-012",
+          "name": "Onderhoud rioleringssysteem",
+          "description": "Inspecteer en reinig de riolering om verstoppingen te voorkomen.",
+          "estimatedPrice": "3000",
+          "ultimateDate": "2027-03-10",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-03-01T22:00:00.000Z",
+            "invoicePrice": "3050",
+            "offerPrice": "3100"
+          }
+        },
+        {
+          "id": "task-013",
+          "name": "Vervanging ramen",
+          "description": "Vervang enkel glas door dubbel glas om energie te besparen.",
+          "estimatedPrice": "8000",
+          "ultimateDate": "2027-04-20",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-04-01T22:00:00.000Z",
+            "invoicePrice": "8200",
+            "offerPrice": "8300"
+          }
+        },
+        {
+          "id": "task-014",
+          "name": "Schoonmaak dakgoten",
+          "description": "Maak de dakgoten schoon om verstoppingen te voorkomen.",
+          "estimatedPrice": "1200",
+          "ultimateDate": "2027-05-15",
+          "urgency": 3,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-05-01T22:00:00.000Z",
+            "invoicePrice": "1250",
+            "offerPrice": "1300"
+          }
+        },
+        {
+          "id": "task-015",
+          "name": "Vervanging voordeuren",
+          "description": "Vervang verouderde voordeuren voor nieuwe, veilige deuren.",
+          "estimatedPrice": "7000",
+          "ultimateDate": "2027-06-25",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-06-01T22:00:00.000Z",
+            "invoicePrice": "7100",
+            "offerPrice": "7200"
+          }
+        },
+        {
+          "id": "task-016",
+          "name": "Onderhoud tuin en groenvoorzieningen",
+          "description": "Snoeien van bomen en struiken in de gemeenschappelijke tuinen.",
+          "estimatedPrice": "1800",
+          "ultimateDate": "2027-07-10",
+          "urgency": 4,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-07-01T22:00:00.000Z",
+            "invoicePrice": "1850",
+            "offerPrice": "1900"
+          }
+        },
+        {
+          "id": "task-017",
+          "name": "Parkeervakken opnieuw schilderen",
+          "description": "Schilder de parkeervakken opnieuw om duidelijkheid te behouden.",
+          "estimatedPrice": "1000",
+          "ultimateDate": "2027-08-05",
+          "urgency": 3,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-07-20T22:00:00.000Z",
+            "invoicePrice": "1020",
+            "offerPrice": "1050"
+          }
+        },
+        {
+          "id": "task-018",
+          "name": "Vervangen verlichting gemeenschappelijke ruimten",
+          "description": "Vervang defecte verlichting in gemeenschappelijke gangen en trappenhuizen.",
+          "estimatedPrice": "2500",
+          "ultimateDate": "2027-09-15",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-09-01T22:00:00.000Z",
+            "invoicePrice": "2550",
+            "offerPrice": "2600"
+          }
+        },
+        {
+          "id": "task-019",
+          "name": "Herstel van betonschade",
+          "description": "Repareer scheuren in het beton van de parkeergarage.",
+          "estimatedPrice": "4500",
+          "ultimateDate": "2027-10-10",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-10-01T22:00:00.000Z",
+            "invoicePrice": "4600",
+            "offerPrice": "4700"
+          }
+        },
+        {
+          "id": "task-020",
+          "name": "Renovatie entreehal",
+          "description": "Renoveer de entreehal inclusief schilderwerk en nieuwe vloer.",
+          "estimatedPrice": "12000",
+          "ultimateDate": "2027-11-20",
+          "urgency": 2,
+          "images": [],
+          "documents": [],
+          "planned": {
+            "workDate": "2027-11-01T22:00:00.000Z",
+            "invoicePrice": "12200",
+            "offerPrice": "12500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f27eb725-e777-45f9-ab75-7fb08cdf6cfa",
+      "name": "terrein",
+      "description": "Terreinconstructies zoals parkeerplaatsen en landschapsinrichting moeten elke 120 maanden worden geïnspecteerd om structurele en esthetische problemen op te sporen.",
+      "interval": 120,
+      "spaceId": "7bc8ec3a-5d10-45ff-aa72-f1923ca561bd",
+      "type": "grondvoorzieningen algemeen",
+      "material": "onbepaald",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {
+        "ernstig": [
+          "Afdichting, manco",
+          "Lekkage "
+        ],
+        "serieus": [
+          "Afschot foutief"
+        ],
+        "gering": [
+          "Vuil, aanslag, verkleuring"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "133ea30c-4593-45ad-98c0-ec5be114f7de",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2024-08-14",
+          "tasks": []
+        }
+      ],
+      "annotations": [],
+      "tasks": []
+    },
+    {
+      "id": "b1b63904-9f5e-4c20-b46d-4c98e2ab77b8",
+      "name": "terrein",
+      "description": "Terreinconstructies zoals parkeerplaatsen en landschapsinrichting moeten elke 120 maanden worden geïnspecteerd om structurele en esthetische problemen op te sporen.",
+      "interval": 120,
+      "spaceId": "7bc8ec3a-5d10-45ff-aa72-f1923ca561bd",
+      "type": "omheiningen algemeen",
+      "material": "staal",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723547988708-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [
+        "uploads\\1723547992542-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Verankering, manco",
+          "Verzakking constructief",
+          "Corrosie"
+        ],
+        "serieus": [
+          "Deformatie, scheefstand",
+          "Doorbuiging",
+          "Ontbrekende (onder-)delen",
+          "Stijfheid stabiliteit onvoldoende",
+          "Verzakking niet constructief",
+          "Beschadiging"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Graffity, bekladding",
+          "Vuil, aanslag, verkleuring",
+          "Bevestiging secundair, manco",
+          "Subelementen manco"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "55e1b94a-791f-447a-804f-10a4269245ab",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2024-08-14",
+          "tasks": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.01114864864864865,
+          "y": 0.027364864864864866,
+          "width": 0.9675675675675676,
+          "height": 0.8324324324324324
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "3d7c696c-07b2-4b89-a480-11fa1a4d4fa0",
+      "name": "terrein",
+      "description": "Terreinconstructies zoals parkeerplaatsen en landschapsinrichting moeten elke 120 maanden worden geïnspecteerd om structurele en esthetische problemen op te sporen.",
+      "interval": 120,
+      "spaceId": "7bc8ec3a-5d10-45ff-aa72-f1923ca561bd",
+      "type": "terreinafwerkingen algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "photos": [
+        "uploads\\1723548048625-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [
+        "uploads\\1723548055494-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "gebreken": {
+        "ernstig": [
+          "Scheuren constructief",
+          "Wapening, manco",
+          "Breuk",
+          "Materiaaltoepassing foutief"
+        ],
+        "serieus": [
+          "Afschot foutief",
+          "Verzakking niet constructief"
+        ],
+        "gering": [
+          "Aangroei mos, algen",
+          "Graffity, bekladding",
+          "Vuil, aanslag, verkleuring"
+        ]
+      },
+      "inspectionReport": [
+        {
+          "id": "f361e8c2-7188-4f98-bde4-6722a2a1eb99",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2024-08-14",
+          "tasks": []
+        }
+      ],
+      "annotations": [],
+      "tasks": []
+    },
+    {
+      "id": "f40fc445-3fcf-488e-b587-47998cdb6218",
+      "name": "binnenwandafwerkingen",
+      "description": "Binnenwandafwerkingen dragen bij aan de esthetiek en functionaliteit van een gebouw. Een inspectie elke 60 maanden helpt bij het identificeren van scheuren, vochtproblemen en slijtage.",
+      "interval": 60,
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "binnenwandafwerking algemeen",
+      "material": "Other",
+      "customMaterial": "schilderwerk",
+      "photos": [
+        "uploads\\1723562142879-witte-afbladderende-verf-op-de-binnenmuur.jpg"
+      ],
+      "documents": [],
+      "gebreken": {},
+      "inspectionReport": [
+        {
+          "id": "3a450f2c-9551-4d8d-8584-c29246d1f977",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "2024-08-24",
+          "tasks": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.4570945945945946,
+          "y": 0.5692567567567568,
+          "width": 0.09594594594594591,
+          "height": 0.19864864864864862
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "custom-element-id",
+      "name": "Custom Element",
+      "spaceId": "custom-space-id",
+      "tasks": [
+        {
+          "id": "custom-22a2a8ae-f01d-4f9a-937f-63e2d1b113b2",
+          "name": "schoonmaak dienst",
+          "description": "het gehele gebouw krijgt een schoonmaak beurt ",
+          "urgency": "4",
+          "estimatedPrice": "1000.00",
+          "planned": {
+            "workDate": "2024-08-31T22:00:00.000Z",
+            "offerPrice": null,
+            "invoicePrice": "1000",
+            "comment": "jaarlijkse schoonmaak",
+            "offerFiles": [
+              "uploads\\1723933126895-Factuur-template-blauw-BTW.pdf"
+            ],
+            "invoiceFiles": [
+              "uploads\\1723933131478-Factuur-template-blauw-BTW.pdf"
+            ],
+            "offerAccepted": true,
+            "inspectionDone": true,
+            "startDate": "2024-07-31T22:00:00.000Z",
+            "endDate": "2024-07-31T22:00:00.000Z"
+          },
+          "ultimateDate": "2025-08-16T22:00:00.000Z",
+          "inspectionDone": true,
+          "offerGroupId": "436ef2a8-f012-4fa6-9d8b-2bcd54127822"
+        },
+        {
+          "id": "custom-bc2644b0-37b3-44f9-ac3c-20a8424a94c2",
+          "name": "schoonmaak dienst",
+          "description": "het gehele gebouw krijgt een schoonmaak beurt ",
+          "urgency": "4",
+          "estimatedPrice": "1100.00",
+          "planned": {
+            "workDate": "2025-08-16T23:01:18.147Z",
+            "offerPrice": "",
+            "invoicePrice": "",
+            "comment": "",
+            "offerFiles": [],
+            "invoiceFiles": [],
+            "offerAccepted": true,
+            "startDate": "2024-09-01T22:00:00.000Z",
+            "endDate": "2024-09-05T22:00:00.000Z"
+          },
+          "ultimateDate": "2026-08-16T22:00:00.000Z"
+        },
+        {
+          "id": "custom-a9e224c7-7678-4cf1-9ad2-0aa86c5274ca",
+          "name": "schoonmaak dienst",
+          "description": "het gehele gebouw krijgt een schoonmaak beurt ",
+          "urgency": "4",
+          "estimatedPrice": "1210.00",
+          "planned": {
+            "workDate": "2026-08-16T23:01:18.147Z",
+            "offerPrice": "",
+            "invoicePrice": "",
+            "comment": "",
+            "offerFiles": [],
+            "invoiceFiles": [],
+            "offerAccepted": false
+          },
+          "ultimateDate": "2027-08-16T22:00:00.000Z"
+        },
+        {
+          "id": "custom-73ae30b6-98cb-4dd3-a207-e79664274950",
+          "name": "schoonmaak dienst",
+          "description": "het gehele gebouw krijgt een schoonmaak beurt ",
+          "urgency": "4",
+          "estimatedPrice": "1331.00",
+          "planned": {
+            "workDate": "2027-08-16T23:01:18.147Z",
+            "offerPrice": "",
+            "invoicePrice": "",
+            "comment": "",
+            "offerFiles": [],
+            "invoiceFiles": [],
+            "offerAccepted": false
+          },
+          "ultimateDate": "2028-08-16T22:00:00.000Z"
+        },
+        {
+          "id": "custom-75533564-e629-493f-b98b-a9c84ed2385e",
+          "name": "schoonmaak dienst",
+          "description": "het gehele gebouw krijgt een schoonmaak beurt ",
+          "estimatedPrice": 1.1,
+          "urgency": "4",
+          "planned": {
+            "workDate": "2028-08-16T23:01:18.147Z",
+            "offerPrice": "0",
+            "invoicePrice": "5",
+            "comment": "",
+            "offerFiles": [],
+            "invoiceFiles": [],
+            "offerAccepted": false
+          },
+          "ultimateDate": "2029-08-16T22:00:00.000Z"
+        }
+      ],
+      "inspectionReport": []
+    },
+    {
+      "id": "da6e5e88-826b-4739-a4c5-f23d20238063",
+      "name": "paalfunderingen",
+      "description": "Paalfunderingen ondersteunen het gewicht van de constructie. Inspecties elke 120 maanden zijn cruciaal om de integriteit en stabiliteit van de fundering te waarborgen.",
+      "interval": 120,
+      "spaceId": "159b287d-8b15-4514-8b00-3a58bacb1119",
+      "type": "geheid algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {
+        "ernstig": [
+          "Scheuren constructief",
+          "Verzakking constructief",
+          "Wapening, manco",
+          "Breuk",
+          "Carbonatatie"
+        ],
+        "serieus": [
+          "Doorbuiging",
+          "Scheuren niet constructief",
+          "Verzakking niet constructief",
+          "Afbrokkelen afboeren",
+          "Dekking onvoldoende"
+        ],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "9ad09c09-cda1-4846-a74d-de9b439929f8",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": [
+        {
+          "x": 0.04493243243243243,
+          "y": 0.3516891891891892,
+          "width": 0.9162162162162163,
+          "height": 0.43783783783783786
+        }
+      ],
+      "tasks": []
+    },
+    {
+      "id": "37946a92-45af-44e6-8c6c-7e9b26b37ebe",
+      "name": "Algemeen",
+      "spaceId": "22046ee2-543b-464f-aff8-3d699c51dd70",
+      "tasks": [
+        {
+          "id": "1671036f-9522-4c1b-ad24-d388b2fd0164",
+          "name": "aaaaaaaabbbbbbbbbbb",
+          "description": "aaaaaaaaaaaaaaaa",
+          "urgency": 3,
+          "spaceName": "Algemeen",
+          "elementName": "Algemeen",
+          "ultimateDate": "2024-11-05T11:43:36.655Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": null,
+            "endDate": null,
+            "offerAccepted": false
+          }
+        },
+        {
+          "id": "7df69aec-ac64-4ab5-8040-623f9aff87cf",
+          "name": "gtgrtgrt",
+          "description": "htrht",
+          "urgency": 1,
+          "spaceName": "Algemeen",
+          "elementName": "Algemeen",
+          "ultimateDate": "2024-11-05T12:07:27.894Z",
+          "estimatedPrice": "0.00",
+          "planned": {
+            "workDate": null,
+            "startDate": null,
+            "endDate": null,
+            "offerAccepted": false
+          }
+        }
+      ],
+      "inspectionReport": []
+    },
+    {
+      "id": "fcd0e238-0828-440e-8250-60a2f3a7a1ec",
+      "name": "Regeling klimaat en sanitair",
+      "interval": "10",
+      "spaceId": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "type": "Specifieke regelingen",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "1000",
+      "aanschafDatum": null,
+      "vervangingsKosten": "100",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "d25da2d6-f292-4567-b310-740f42d7e3f5",
+      "name": "ditiseentest",
+      "description": "",
+      "interval": "",
+      "spaceId": "",
+      "type": "",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "15ebefa1-bd3d-4704-acae-eb178b508c50",
+      "name": "aaaaa",
+      "description": "",
+      "interval": "",
+      "spaceId": "",
+      "type": "",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "7bee8028-4a91-42a7-9b8f-138a9e63d2dc",
+      "name": "ccccccccccc",
+      "description": "",
+      "interval": "",
+      "spaceId": "",
+      "type": "",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "9c2e9f67-9dac-4236-9630-3ee8a4ba1008",
+      "name": "errrrr",
+      "description": "",
+      "interval": "",
+      "spaceId": "",
+      "type": "",
+      "material": "",
+      "customMaterial": "",
+      "photos": [],
+      "categories": [
+        "liften en installaties",
+        "ventilatie en verwarming"
+      ],
+      "documents": [],
+      "gebreken": {},
+      "levensduur": "",
+      "aanschafDatum": null,
+      "vervangingsKosten": "",
+      "inspectionReport": [
+        {
+          "id": "",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    }
+  ],
+  "globalSpaces": [
+    {
+      "id": "d7835a07-1b0f-4ce2-ac8f-a1f02d89ade4",
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": [
+        "uploads\\1723317462354-70e6934f-e89a-4a06-a6b5-7b3d7d4af17d.webp"
+      ],
+      "documents": [
+        "uploads\\1723317468792-modelreglement-bij-splitsing-in-appartementsrechten-kleine-vereniging-van-eigenaars-2021-2.pdf"
+      ],
+      "image": "uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "annotations": [
+        {
+          "x": 0.45,
+          "y": 0.5600929054054054,
+          "width": 0.10675675675675672,
+          "height": 0.21216216216216222
+        }
+      ],
+      "floorSelection": false,
+      "floorNumber": ""
+    },
+    {
+      "id": "5ee3c37d-7529-4451-a5b4-a92833aa6e53",
+      "name": "buitenkant gebouw",
+      "description": "gevel,buitenkanopeningen, balkonnen",
+      "photos": [
+        "uploads\\1723547023883-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [
+        "uploads\\1723547030146-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "annotations": [
+        {
+          "x": 0.038175675675675674,
+          "y": 0.3452280405405405,
+          "width": 0.9337837837837838,
+          "height": 0.44459459459459466
+        }
+      ],
+      "floorSelection": false,
+      "floorNumber": ""
+    },
+    {
+      "id": "7bc8ec3a-5d10-45ff-aa72-f1923ca561bd",
+      "name": "terein rondom gebouw",
+      "description": "parkeerplaasten,en overig terein",
+      "photos": [
+        "uploads\\1723547868294-33fe92a3-9e9f-4de5-a278-ab3ee98ebdcd.webp"
+      ],
+      "documents": [
+        "uploads\\1723547874284-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
+      ],
+      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "annotations": [
+        {
+          "x": 0.04628378378378378,
+          "y": 0.3465793918918919,
+          "width": 0.9216216216216215,
+          "height": -0.28783783783783784
+        }
+      ],
+      "floorSelection": false,
+      "floorNumber": ""
+    },
+    {
+      "name": "fundering",
+      "description": "de fundering van het gebouw",
+      "photos": [],
+      "documents": [],
+      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "annotations": [
+        {
+          "x": 0.04493243243243243,
+          "y": 0.3465793918918919,
+          "width": 0.9256756756756758,
+          "height": 0.4445945945945946
+        }
+      ],
+      "id": "159b287d-8b15-4514-8b00-3a58bacb1119"
+    },
+    {
+      "id": "22046ee2-543b-464f-aff8-3d699c51dd70",
+      "name": "Algemeen"
+    },
+    {
+      "name": "dfdsfsdfdf",
+      "description": "fdfdfrf",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "bc80074e-d36c-4586-8996-d7b2317634bd"
+    },
+    {
+      "name": "tghfrthththth",
+      "description": "hthththt",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "a5264fa6-9c29-4ed7-84b1-974613752adf"
+    },
+    {
+      "name": "new space",
+      "description": "cdcsc",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "8154bcb1-6789-44d5-acbd-9266fcad6468"
+    },
+    {
+      "name": "new space",
+      "description": "fvfvfvdfdv",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "ebfb70d8-badf-421e-9f24-72a78fc0d694"
+    },
+    {
+      "name": "new space",
+      "description": "fvfdvfrvtv",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "653cc391-a5d5-4f53-936f-b5d01ca3635d"
+    },
+    {
+      "name": "new space",
+      "description": "grgtgvdv",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "8e4a5178-05a4-4f9b-bfd8-5d9d479e6137"
+    },
+    {
+      "name": "newddddd",
+      "description": "dcsdcsdfsdfsdfd",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "ff5a805a-5e9d-4599-8849-d189c07f68cb"
+    },
+    {
+      "name": "gggggg",
+      "description": "ggggg",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "d44b5181-ac5b-458e-adb0-1682aed8b0f6"
+    },
+    {
+      "name": "bbbb",
+      "description": "bbbb",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "059e6390-59fb-4afa-8343-e0caa0e13572"
+    },
+    {
+      "name": "vvvvvv",
+      "description": "vvvvv",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "4df0d681-b519-470e-9839-2a98e6132987"
+    },
+    {
+      "name": "aaaaaaa",
+      "description": "aaaa",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "119eaa9e-fe3b-47b3-a930-9bc9f6d72e94"
+    }
+  ],
+  "globalDocuments": [],
+  "createdAt": {
+    "$date": "2024-08-10T19:13:44.669Z"
+  },
+  "createdBy": {
+    "$oid": "66742cf83811e30b0f2d10c4"
+  },
+  "updatedAt": {
+    "$date": "2024-11-08T22:23:18.170Z"
+  },
+  "updatedBy": {
+    "$oid": "6675fab2ee64bf818fa2ecd4"
+  },
+  "offerGroups": [
+    {
+      "offerGroupId": "436ef2a8-f012-4fa6-9d8b-2bcd54127822",
+      "invoicePrice": "",
+      "offerPrice": "",
+      "estimatedValue": 16500,
+      "name": "offertegroep 1",
+      "offerAccepted": false,
+      "groupWorkDate": "2024-08-31T22:00:00.000Z"
+    }
+  ]
+}

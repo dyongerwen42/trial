@@ -1,0 +1,253 @@
+[
+    {
+      "id": "1",
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw."
+    },
+    {
+      "id": "2",
+      "name": "Lobby",
+      "description": "De ontvangstruimte waar bezoekers worden verwelkomd."
+    },
+    {
+      "id": "3",
+      "name": "Gangen",
+      "description": "De gangen die verschillende ruimtes in het gebouw met elkaar verbinden."
+    },
+    {
+      "id": "4",
+      "name": "Trappenhuis",
+      "description": "Het trappenhuis dat verschillende verdiepingen met elkaar verbindt."
+    },
+    {
+      "id": "5",
+      "name": "Lift",
+      "description": "De lift voor het vervoeren van personen en goederen tussen verdiepingen."
+    },
+    {
+      "id": "6",
+      "name": "Fietsenstalling",
+      "description": "De ruimte voor het stallen van fietsen."
+    },
+    {
+      "id": "7",
+      "name": "Parkeergarage",
+      "description": "De ondergrondse of bovengrondse ruimte voor het parkeren van auto's."
+    },
+    {
+      "id": "8",
+      "name": "Afvalruimte",
+      "description": "De ruimte voor het verzamelen en opslaan van afval."
+    },
+    {
+      "id": "9",
+      "name": "Technische Ruimte",
+      "description": "De ruimte waar technische installaties zijn ondergebracht."
+    },
+    {
+      "id": "10",
+      "name": "Fitnessruimte",
+      "description": "De ruimte voor sport en recreatie."
+    },
+    {
+      "id": "11",
+      "name": "Receptie",
+      "description": "De ruimte waar de receptie zich bevindt."
+    },
+    {
+      "id": "12",
+      "name": "Vergaderruimte",
+      "description": "De ruimte voor vergaderingen en bijeenkomsten."
+    },
+    {
+      "id": "13",
+      "name": "Kantine",
+      "description": "De ruimte waar medewerkers kunnen eten en drinken."
+    },
+    {
+      "id": "14",
+      "name": "Sanitaire Voorzieningen",
+      "description": "De toiletten en andere sanitaire voorzieningen."
+    },
+    {
+      "id": "15",
+      "name": "Berging",
+      "description": "De ruimte voor opslag van materialen en gereedschappen."
+    },
+    {
+      "id": "16",
+      "name": "Dakterras",
+      "description": "Het terras op het dak van het gebouw."
+    },
+    {
+      "id": "17",
+      "name": "Tuin",
+      "description": "De buitenruimte met beplanting en groenvoorzieningen."
+    },
+    {
+      "id": "18",
+      "name": "Speelplaats",
+      "description": "De buitenruimte voor kinderen om te spelen."
+    },
+    {
+      "id": "19",
+      "name": "Wachtruimte",
+      "description": "De ruimte waar bezoekers kunnen wachten."
+    },
+    {
+      "id": "20",
+      "name": "Wasruimte",
+      "description": "De ruimte voor het wassen en drogen van kleding en textiel."
+    },
+    {
+      "id": "21",
+      "name": "Garderobe",
+      "description": "De ruimte waar jassen en andere kledingstukken kunnen worden opgehangen."
+    },
+    {
+      "id": "22",
+      "name": "Archiefruimte",
+      "description": "De ruimte voor het opslaan van documenten en archiefmateriaal."
+    },
+    {
+      "id": "23",
+      "name": "Bioscoopzaal",
+      "description": "De ruimte voor het vertonen van films en presentaties."
+    },
+    {
+      "id": "24",
+      "name": "Bibliotheek",
+      "description": "De ruimte waar boeken en andere leesmaterialen kunnen worden geraadpleegd."
+    },
+    {
+      "id": "25",
+      "name": "Galerie",
+      "description": "De ruimte voor het tentoonstellen van kunst en andere objecten."
+    },
+    {
+      "id": "26",
+      "name": "Kantoor",
+      "description": "De werkruimte voor medewerkers."
+    },
+    {
+      "id": "27",
+      "name": "Ziekenboeg",
+      "description": "De ruimte voor eerste hulp en medische verzorging."
+    },
+    {
+      "id": "28",
+      "name": "Keuken",
+      "description": "De ruimte voor het bereiden van maaltijden."
+    },
+    {
+      "id": "29",
+      "name": "Terras",
+      "description": "De buitenruimte voor ontspanning en recreatie."
+    },
+    {
+      "id": "30",
+      "name": "Kopieerruimte",
+      "description": "De ruimte waar kopieer- en printapparatuur staat."
+    },
+    {
+      "id": "31",
+      "name": "Werkplaats",
+      "description": "De ruimte voor onderhoud en reparatie."
+    },
+    {
+      "id": "32",
+      "name": "Machinekamer",
+      "description": "De ruimte waar machines en technische installaties zijn ondergebracht."
+    },
+    {
+      "id": "33",
+      "name": "Kelder",
+      "description": "De ondergrondse ruimte voor opslag of andere doeleinden."
+    },
+    {
+      "id": "34",
+      "name": "Attic",
+      "description": "De bovenste verdieping van een gebouw, vaak gebruikt voor opslag."
+    },
+    {
+      "id": "35",
+      "name": "Telecommunicatie Ruimte",
+      "description": "De ruimte voor telecommunicatieapparatuur en netwerken."
+    },
+    {
+      "id": "36",
+      "name": "Onderhoudsruimte",
+      "description": "De ruimte waar onderhoudswerkzaamheden worden uitgevoerd."
+    },
+    {
+      "id": "37",
+      "name": "EHBO Kamer",
+      "description": "De ruimte voor eerste hulp bij ongelukken."
+    },
+    {
+      "id": "38",
+      "name": "Serverruimte",
+      "description": "De ruimte waar servers en IT-apparatuur zijn ondergebracht."
+    },
+    {
+      "id": "39",
+      "name": "Documentatieruimte",
+      "description": "De ruimte voor het opslaan van technische documentatie en handleidingen."
+    },
+    {
+      "id": "40",
+      "name": "Opslagruimte",
+      "description": "De ruimte voor het opslaan van voorraden en materialen."
+    },
+    {
+      "id": "41",
+      "name": "Centrale Hal",
+      "description": "De centrale ruimte in het gebouw, vaak gebruikt als ontmoetingsplek."
+    },
+    {
+      "id": "42",
+      "name": "Openbare Ruimte",
+      "description": "Ruimte toegankelijk voor alle gebruikers van het gebouw."
+    },
+    {
+      "id": "43",
+      "name": "Wasruimte",
+      "description": "Ruimte voor het wassen en drogen van kleding."
+    },
+    {
+      "id": "44",
+      "name": "Recreatieruimte",
+      "description": "Ruimte voor ontspanning en recreatie."
+    },
+    {
+      "id": "45",
+      "name": "Multifunctionele Ruimte",
+      "description": "Ruimte die voor verschillende doeleinden kan worden gebruikt."
+    },
+    {
+      "id": "46",
+      "name": "Fitnessruimte",
+      "description": "Ruimte voor sport en fitness."
+    },
+    {
+      "id": "47",
+      "name": "Kinderopvang",
+      "description": "Ruimte voor de opvang van kinderen."
+    },
+    {
+      "id": "48",
+      "name": "Hobbyruimte",
+      "description": "Ruimte voor hobby's en handwerk."
+    },
+    {
+      "id": "49",
+      "name": "Zitkamer",
+      "description": "Ruimte voor ontspanning en gesprekken."
+    },
+    {
+      "id": "50",
+      "name": "Dakterras",
+      "description": "Buitenruimte op het dak van het gebouw."
+    }
+  ]
+  

@@ -1,0 +1,971 @@
+{
+  "_id": {
+    "$oid": "668da8c19b4ecc59aaad987c"
+  },
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "PROJ-2024-001",
+    "projectName": "Renovatie Kantoorgebouw",
+    "address": "Kantoorbaan 123, 1234 AB, Stad",
+    "contactPerson": "Jan Jansen",
+    "inspectionDate": "2024-07-01",
+    "propertyImage": "uploads\\1720818799915-My_project_1_1_0_2.png",
+    "opdrachtgeverNaam": "Opdrachtgever BV",
+    "opdrachtgeverAdres": "Opdrachtweg 45, 5678 CD, Stad",
+    "opdrachtgeverPostcode": "5678 CD",
+    "opdrachtgeverPlaats": "Stad",
+    "opdrachtgeverTelefoon": "012-3456789",
+    "opdrachtgeverEmail": "info@opdrachtgeverbv.nl",
+    "inspecteur": "Piet Pietersen",
+    "inspectiedatum": "2024-07-02",
+    "opmerkingen": "Geen bijzonderheden"
+  },
+  "cashInfo": {
+    "currentCash": "500000",
+    "monthlyContribution": "10000",
+    "reserveDate": "2024-01-01T00:00:00.000Z",
+    "totalWorth": "1000000"
+  },
+  "globalElements": [
+    {
+      "id": "element1",
+      "name": "Gevel",
+      "description": "Onderhoud van de buitengevels om scheuren en verwering te voorkomen.",
+      "interval": 24,
+      "spaceId": "space1",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir1",
+          "description": "Inspectie van de gevels op scheuren en verwering.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-20",
+          "tasks": [
+            {
+              "id": "task1",
+              "name": "Reparatie scheuren",
+              "description": "Repareren van scheuren in de buitengevel.",
+              "estimatedPrice": "5000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-27",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-01",
+                "estimatedPrice": "5000",
+                "files": [],
+                "comment": "Reparatie moet voor de winter klaar zijn."
+              }
+            },
+            {
+              "id": "task2",
+              "name": "Schilderen",
+              "description": "Schilderen van de buitengevel.",
+              "estimatedPrice": "3000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-15",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-09-01",
+                "estimatedPrice": "3000",
+                "files": [],
+                "comment": "Schilderen na reparatie van scheuren."
+              }
+            },
+            {
+              "id": "task3",
+              "name": "Reinigen gevel",
+              "description": "Reinigen van de buitengevel.",
+              "estimatedPrice": "2000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-10",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "2000",
+                "files": [],
+                "comment": "Reinigen voor het schilderen."
+              }
+            }
+          ],
+          "name": "Gevelinspectie",
+          "condition": "Redelijk",
+          "urgency": "1",
+          "elementType": "Buitenmuur",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "10000",
+          "remarks": "Scheuren gevonden op meerdere plaatsen."
+        }
+      ]
+    },
+    {
+      "id": "element2",
+      "name": "Dak",
+      "description": "Onderhoud van het dak om lekkages te voorkomen.",
+      "interval": 12,
+      "spaceId": "space1",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir2",
+          "description": "Inspectie van het dak op lekkages en schade.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-21",
+          "tasks": [
+            {
+              "id": "task4",
+              "name": "Reparatie daklekkage",
+              "description": "Repareren van lekkages in het dak.",
+              "estimatedPrice": "4000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-01",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "4000",
+                "files": [],
+                "comment": "Reparatie moet voor de herfst klaar zijn."
+              }
+            },
+            {
+              "id": "task5",
+              "name": "Dakinspectie",
+              "description": "Inspectie van het dak op beschadigingen.",
+              "estimatedPrice": "1500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-28",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-07-25",
+                "estimatedPrice": "1500",
+                "files": [],
+                "comment": "Inspectie om mogelijke problemen te identificeren."
+              }
+            },
+            {
+              "id": "task6",
+              "name": "Dakreiniging",
+              "description": "Reinigen van het dak.",
+              "estimatedPrice": "1000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-15",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-10",
+                "estimatedPrice": "1000",
+                "files": [],
+                "comment": "Reinigen om mosgroei te verwijderen."
+              }
+            }
+          ],
+          "name": "Dakinspectie",
+          "condition": "Goed",
+          "urgency": "2",
+          "elementType": "Dak",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "6500",
+          "remarks": "Geen grote problemen, alleen klein onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element3",
+      "name": "Ramen",
+      "description": "Onderhoud van de ramen om goed functioneren te garanderen.",
+      "interval": 6,
+      "spaceId": "space1",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir3",
+          "description": "Inspectie van de ramen op beschadigingen en slijtage.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-22",
+          "tasks": [
+            {
+              "id": "task7",
+              "name": "Vervanging ramen",
+              "description": "Vervangen van beschadigde ramen.",
+              "estimatedPrice": "7000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-01",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-08-20",
+                "estimatedPrice": "7000",
+                "files": [],
+                "comment": "Vervanging van alle beschadigde ramen."
+              }
+            },
+            {
+              "id": "task8",
+              "name": "Smeren scharnieren",
+              "description": "Smeren van de scharnieren van de ramen.",
+              "estimatedPrice": "500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-05",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-07-30",
+                "estimatedPrice": "500",
+                "files": [],
+                "comment": "Smeren van de scharnieren voor soepel functioneren."
+              }
+            },
+            {
+              "id": "task9",
+              "name": "Reinigen ramen",
+              "description": "Reinigen van de ramen.",
+              "estimatedPrice": "300",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-25",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-07-22",
+                "estimatedPrice": "300",
+                "files": [],
+                "comment": "Reinigen van alle ramen."
+              }
+            }
+          ],
+          "name": "Rameninspectie",
+          "condition": "Matig",
+          "urgency": "3",
+          "elementType": "Ramen",
+          "elementFunction": "Licht en ventilatie",
+          "unit": "stuks",
+          "estimatedPrice": "7800",
+          "remarks": "Enkele ramen zijn beschadigd, anderen hebben onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element4",
+      "name": "Gevel",
+      "description": "Onderhoud van de buitengevels om scheuren en verwering te voorkomen.",
+      "interval": 24,
+      "spaceId": "space2",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir4",
+          "description": "Inspectie van de gevels op scheuren en verwering.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-20",
+          "tasks": [
+            {
+              "id": "task10",
+              "name": "Reparatie scheuren",
+              "description": "Repareren van scheuren in de buitengevel.",
+              "estimatedPrice": "5000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-27",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-01",
+                "estimatedPrice": "5000",
+                "files": [],
+                "comment": "Reparatie moet voor de winter klaar zijn."
+              }
+            },
+            {
+              "id": "task11",
+              "name": "Schilderen",
+              "description": "Schilderen van de buitengevel.",
+              "estimatedPrice": "3000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-15",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-09-01",
+                "estimatedPrice": "3000",
+                "files": [],
+                "comment": "Schilderen na reparatie van scheuren."
+              }
+            },
+            {
+              "id": "task12",
+              "name": "Reinigen gevel",
+              "description": "Reinigen van de buitengevel.",
+              "estimatedPrice": "2000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-10",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "2000",
+                "files": [],
+                "comment": "Reinigen voor het schilderen."
+              }
+            }
+          ],
+          "name": "Gevelinspectie",
+          "condition": "Redelijk",
+          "urgency": "1",
+          "elementType": "Buitenmuur",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "10000",
+          "remarks": "Scheuren gevonden op meerdere plaatsen."
+        }
+      ]
+    },
+    {
+      "id": "element5",
+      "name": "Dak",
+      "description": "Onderhoud van het dak om lekkages te voorkomen.",
+      "interval": 12,
+      "spaceId": "space2",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir5",
+          "description": "Inspectie van het dak op lekkages en schade.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-21",
+          "tasks": [
+            {
+              "id": "task13",
+              "name": "Reparatie daklekkage",
+              "description": "Repareren van lekkages in het dak.",
+              "estimatedPrice": "4000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-01",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "4000",
+                "files": [],
+                "comment": "Reparatie moet voor de herfst klaar zijn."
+              }
+            },
+            {
+              "id": "task14",
+              "name": "Dakinspectie",
+              "description": "Inspectie van het dak op beschadigingen.",
+              "estimatedPrice": "1500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-28",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-07-25",
+                "estimatedPrice": "1500",
+                "files": [],
+                "comment": "Inspectie om mogelijke problemen te identificeren."
+              }
+            },
+            {
+              "id": "task15",
+              "name": "Dakreiniging",
+              "description": "Reinigen van het dak.",
+              "estimatedPrice": "1000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-15",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-10",
+                "estimatedPrice": "1000",
+                "files": [],
+                "comment": "Reinigen om mosgroei te verwijderen."
+              }
+            }
+          ],
+          "name": "Dakinspectie",
+          "condition": "Goed",
+          "urgency": "2",
+          "elementType": "Dak",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "6500",
+          "remarks": "Geen grote problemen, alleen klein onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element6",
+      "name": "Ramen",
+      "description": "Onderhoud van de ramen om goed functioneren te garanderen.",
+      "interval": 6,
+      "spaceId": "space2",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir6",
+          "description": "Inspectie van de ramen op beschadigingen en slijtage.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-22",
+          "tasks": [
+            {
+              "id": "task16",
+              "name": "Vervanging ramen",
+              "description": "Vervangen van beschadigde ramen.",
+              "estimatedPrice": "7000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-01",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-08-20",
+                "estimatedPrice": "7000",
+                "files": [],
+                "comment": "Vervanging van alle beschadigde ramen."
+              }
+            },
+            {
+              "id": "task17",
+              "name": "Smeren scharnieren",
+              "description": "Smeren van de scharnieren van de ramen.",
+              "estimatedPrice": "500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-05",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-07-30",
+                "estimatedPrice": "500",
+                "files": [],
+                "comment": "Smeren van de scharnieren voor soepel functioneren."
+              }
+            },
+            {
+              "id": "task18",
+              "name": "Reinigen ramen",
+              "description": "Reinigen van de ramen.",
+              "estimatedPrice": "300",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-25",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-07-22",
+                "estimatedPrice": "300",
+                "files": [],
+                "comment": "Reinigen van alle ramen."
+              }
+            }
+          ],
+          "name": "Rameninspectie",
+          "condition": "Matig",
+          "urgency": "3",
+          "elementType": "Ramen",
+          "elementFunction": "Licht en ventilatie",
+          "unit": "stuks",
+          "estimatedPrice": "7800",
+          "remarks": "Enkele ramen zijn beschadigd, anderen hebben onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element7",
+      "name": "Gevel",
+      "description": "Onderhoud van de buitengevels om scheuren en verwering te voorkomen.",
+      "interval": 24,
+      "spaceId": "space3",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir7",
+          "description": "Inspectie van de gevels op scheuren en verwering.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-20",
+          "tasks": [
+            {
+              "id": "task19",
+              "name": "Reparatie scheuren",
+              "description": "Repareren van scheuren in de buitengevel.",
+              "estimatedPrice": "5000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-27",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-01",
+                "estimatedPrice": "5000",
+                "files": [],
+                "comment": "Reparatie moet voor de winter klaar zijn."
+              }
+            },
+            {
+              "id": "task20",
+              "name": "Schilderen",
+              "description": "Schilderen van de buitengevel.",
+              "estimatedPrice": "3000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-15",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-09-01",
+                "estimatedPrice": "3000",
+                "files": [],
+                "comment": "Schilderen na reparatie van scheuren."
+              }
+            },
+            {
+              "id": "task21",
+              "name": "Reinigen gevel",
+              "description": "Reinigen van de buitengevel.",
+              "estimatedPrice": "2000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-10",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "2000",
+                "files": [],
+                "comment": "Reinigen voor het schilderen."
+              }
+            }
+          ],
+          "name": "Gevelinspectie",
+          "condition": "Redelijk",
+          "urgency": "1",
+          "elementType": "Buitenmuur",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "10000",
+          "remarks": "Scheuren gevonden op meerdere plaatsen."
+        }
+      ]
+    },
+    {
+      "id": "element8",
+      "name": "Dak",
+      "description": "Onderhoud van het dak om lekkages te voorkomen.",
+      "interval": 12,
+      "spaceId": "space3",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir8",
+          "description": "Inspectie van het dak op lekkages en schade.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-21",
+          "tasks": [
+            {
+              "id": "task22",
+              "name": "Reparatie daklekkage",
+              "description": "Repareren van lekkages in het dak.",
+              "estimatedPrice": "4000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-01",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "4000",
+                "files": [],
+                "comment": "Reparatie moet voor de herfst klaar zijn."
+              }
+            },
+            {
+              "id": "task23",
+              "name": "Dakinspectie",
+              "description": "Inspectie van het dak op beschadigingen.",
+              "estimatedPrice": "1500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-28",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-07-25",
+                "estimatedPrice": "1500",
+                "files": [],
+                "comment": "Inspectie om mogelijke problemen te identificeren."
+              }
+            },
+            {
+              "id": "task24",
+              "name": "Dakreiniging",
+              "description": "Reinigen van het dak.",
+              "estimatedPrice": "1000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-15",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-10",
+                "estimatedPrice": "1000",
+                "files": [],
+                "comment": "Reinigen om mosgroei te verwijderen."
+              }
+            }
+          ],
+          "name": "Dakinspectie",
+          "condition": "Goed",
+          "urgency": "2",
+          "elementType": "Dak",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "6500",
+          "remarks": "Geen grote problemen, alleen klein onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element9",
+      "name": "Ramen",
+      "description": "Onderhoud van de ramen om goed functioneren te garanderen.",
+      "interval": 6,
+      "spaceId": "space3",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir9",
+          "description": "Inspectie van de ramen op beschadigingen en slijtage.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-22",
+          "tasks": [
+            {
+              "id": "task25",
+              "name": "Vervanging ramen",
+              "description": "Vervangen van beschadigde ramen.",
+              "estimatedPrice": "7000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-01",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-08-20",
+                "estimatedPrice": "7000",
+                "files": [],
+                "comment": "Vervanging van alle beschadigde ramen."
+              }
+            },
+            {
+              "id": "task26",
+              "name": "Smeren scharnieren",
+              "description": "Smeren van de scharnieren van de ramen.",
+              "estimatedPrice": "500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-05",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-07-30",
+                "estimatedPrice": "500",
+                "files": [],
+                "comment": "Smeren van de scharnieren voor soepel functioneren."
+              }
+            },
+            {
+              "id": "task27",
+              "name": "Reinigen ramen",
+              "description": "Reinigen van de ramen.",
+              "estimatedPrice": "300",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-25",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-07-22",
+                "estimatedPrice": "300",
+                "files": [],
+                "comment": "Reinigen van alle ramen."
+              }
+            }
+          ],
+          "name": "Rameninspectie",
+          "condition": "Matig",
+          "urgency": "3",
+          "elementType": "Ramen",
+          "elementFunction": "Licht en ventilatie",
+          "unit": "stuks",
+          "estimatedPrice": "7800",
+          "remarks": "Enkele ramen zijn beschadigd, anderen hebben onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element10",
+      "name": "Gevel",
+      "description": "Onderhoud van de buitengevels om scheuren en verwering te voorkomen.",
+      "interval": 24,
+      "spaceId": "space4",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir10",
+          "description": "Inspectie van de gevels op scheuren en verwering.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-20",
+          "tasks": [
+            {
+              "id": "task28",
+              "name": "Reparatie scheuren",
+              "description": "Repareren van scheuren in de buitengevel.",
+              "estimatedPrice": "5000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-27",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-01",
+                "estimatedPrice": "5000",
+                "files": [],
+                "comment": "Reparatie moet voor de winter klaar zijn."
+              }
+            },
+            {
+              "id": "task29",
+              "name": "Schilderen",
+              "description": "Schilderen van de buitengevel.",
+              "estimatedPrice": "3000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-15",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-09-01",
+                "estimatedPrice": "3000",
+                "files": [],
+                "comment": "Schilderen na reparatie van scheuren."
+              }
+            },
+            {
+              "id": "task30",
+              "name": "Reinigen gevel",
+              "description": "Reinigen van de buitengevel.",
+              "estimatedPrice": "2000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-10",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "2000",
+                "files": [],
+                "comment": "Reinigen voor het schilderen."
+              }
+            }
+          ],
+          "name": "Gevelinspectie",
+          "condition": "Redelijk",
+          "urgency": "1",
+          "elementType": "Buitenmuur",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "10000",
+          "remarks": "Scheuren gevonden op meerdere plaatsen."
+        }
+      ]
+    },
+    {
+      "id": "element11",
+      "name": "Dak",
+      "description": "Onderhoud van het dak om lekkages te voorkomen.",
+      "interval": 12,
+      "spaceId": "space4",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir11",
+          "description": "Inspectie van het dak op lekkages en schade.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-21",
+          "tasks": [
+            {
+              "id": "task31",
+              "name": "Reparatie daklekkage",
+              "description": "Repareren van lekkages in het dak.",
+              "estimatedPrice": "4000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-01",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-08-05",
+                "estimatedPrice": "4000",
+                "files": [],
+                "comment": "Reparatie moet voor de herfst klaar zijn."
+              }
+            },
+            {
+              "id": "task32",
+              "name": "Dakinspectie",
+              "description": "Inspectie van het dak op beschadigingen.",
+              "estimatedPrice": "1500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-28",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-07-25",
+                "estimatedPrice": "1500",
+                "files": [],
+                "comment": "Inspectie om mogelijke problemen te identificeren."
+              }
+            },
+            {
+              "id": "task33",
+              "name": "Dakreiniging",
+              "description": "Reinigen van het dak.",
+              "estimatedPrice": "1000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-15",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-08-10",
+                "estimatedPrice": "1000",
+                "files": [],
+                "comment": "Reinigen om mosgroei te verwijderen."
+              }
+            }
+          ],
+          "name": "Dakinspectie",
+          "condition": "Goed",
+          "urgency": "2",
+          "elementType": "Dak",
+          "elementFunction": "Bescherming tegen weersinvloeden",
+          "unit": "m2",
+          "estimatedPrice": "6500",
+          "remarks": "Geen grote problemen, alleen klein onderhoud nodig."
+        }
+      ]
+    },
+    {
+      "id": "element12",
+      "name": "Ramen",
+      "description": "Onderhoud van de ramen om goed functioneren te garanderen.",
+      "interval": 6,
+      "spaceId": "space4",
+      "photos": [],
+      "documents": [],
+      "inspectionReport": [
+        {
+          "id": "ir12",
+          "description": "Inspectie van de ramen op beschadigingen en slijtage.",
+          "inspectionDone": false,
+          "inspectionDate": "2024-07-22",
+          "tasks": [
+            {
+              "id": "task34",
+              "name": "Vervanging ramen",
+              "description": "Vervangen van beschadigde ramen.",
+              "estimatedPrice": "7000",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-09-01",
+              "urgency": "1",
+              "planned": {
+                "workDate": "2024-08-20",
+                "estimatedPrice": "7000",
+                "files": [],
+                "comment": "Vervanging van alle beschadigde ramen."
+              }
+            },
+            {
+              "id": "task35",
+              "name": "Smeren scharnieren",
+              "description": "Smeren van de scharnieren van de ramen.",
+              "estimatedPrice": "500",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-08-05",
+              "urgency": "2",
+              "planned": {
+                "workDate": "2024-07-30",
+                "estimatedPrice": "500",
+                "files": [],
+                "comment": "Smeren van de scharnieren voor soepel functioneren."
+              }
+            },
+            {
+              "id": "task36",
+              "name": "Reinigen ramen",
+              "description": "Reinigen van de ramen.",
+              "estimatedPrice": "300",
+              "images": [],
+              "documents": [],
+              "ultimateDate": "2024-07-25",
+              "urgency": "3",
+              "planned": {
+                "workDate": "2024-07-22",
+                "estimatedPrice": "300",
+                "files": [],
+                "comment": "Reinigen van alle ramen."
+              }
+            }
+          ],
+          "name": "Rameninspectie",
+          "condition": "Matig",
+          "urgency": "3",
+          "elementType": "Ramen",
+          "elementFunction": "Licht en ventilatie",
+          "unit": "stuks",
+          "estimatedPrice": "7800",
+          "remarks": "Enkele ramen zijn beschadigd, anderen hebben onderhoud nodig."
+        }
+      ]
+    }
+  ],
+  "globalSpaces": [
+    {
+      "id": "space1",
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": []
+    },
+    {
+      "id": "space2",
+      "name": "Gang",
+      "description": "De gang op de begane grond.",
+      "photos": []
+    },
+    {
+      "id": "space3",
+      "name": "Kantoorruimte 1",
+      "description": "Kantoorruimte op de eerste verdieping.",
+      "photos": []
+    },
+    {
+      "id": "space4",
+      "name": "Kantoorruimte 2",
+      "description": "Kantoorruimte op de tweede verdieping.",
+      "photos": []
+    }
+  ],
+  "globalDocuments": [],
+  "inspectionReports": [],
+  "createdAt": {
+    "$date": "2024-07-09T21:16:49.700Z"
+  },
+  "createdBy": {
+    "$oid": "66742cf83811e30b0f2d10c4"
+  },
+  "updatedAt": {
+    "$date": "2024-07-12T21:13:19.946Z"
+  },
+  "updatedBy": {
+    "$oid": "66742cf83811e30b0f2d10c4"
+  }
+}
