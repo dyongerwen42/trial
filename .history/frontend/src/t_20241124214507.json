@@ -1,0 +1,810 @@
+{
+  "_id": {
+    "$oid": "66e2a5c6ff81869da7c08401"
+  },
+  "mjop": {},
+  "generalInfo": {
+    "projectNumber": "0002",
+    "projectName": "Project 2",
+    "address": "Coolsingel 105, 3012 AG Rotterdam",
+    "contactPerson": "",
+    "inspectionDate": "",
+    "propertyImage": "",
+    "opdrachtgeverNaam": "",
+    "opdrachtgeverAdres": "",
+    "opdrachtgeverPostcode": "",
+    "opdrachtgeverPlaats": "",
+    "opdrachtgeverTelefoon": "",
+    "opdrachtgeverEmail": "",
+    "inspecteur": "",
+    "inspectiedatum": "",
+    "opmerkingen": "geen",
+    "contactPersonName": "Contactpersoon",
+    "contactPersonEmail": "contact@project.nl",
+    "contactPersonPhone": "0600000000",
+    "beheerderNaam": "Beheerder",
+    "beheerderAdres": "Beheeradres",
+    "beheerderPostcode": "1111AA",
+    "beheerderPlaats": "Beheerplaats",
+    "beheerderTelefoon": "0700000000",
+    "beheerderEmail": "beheer@beheer.nl",
+    "description": "",
+    "interval": 0,
+    "annotations": []
+  },
+  "cashInfo": {
+    "currentCash": 0,
+    "monthlyContribution": 0,
+    "reserveDate": "2024-11-08T12:49:14.011Z",
+    "totalWorth": 0
+  },
+  "globalDocuments": [],
+  "globalSpaces": [
+    {
+      "name": "Entree",
+      "description": "De hoofdingang van het gebouw.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "0ced9d26-fcf2-404f-9c1f-1ad16f145290"
+    },
+    {
+      "name": "Lobby",
+      "description": "De ontvangstruimte waar bezoekers worden verwelkomd.",
+      "photos": [],
+      "documents": [],
+      "image": "",
+      "annotations": [],
+      "floorSelection": false,
+      "floorNumber": "",
+      "id": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd"
+    },
+    {
+      "id": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "name": "Algemeen"
+    }
+  ],
+  "offerGroups": [],
+  "updatedAt": {
+    "$date": "2024-11-19T21:42:32.713Z"
+  },
+  "updatedBy": {
+    "$oid": "6675fab2ee64bf818fa2ecd4"
+  },
+  "globalElements": [
+    {
+      "name": "funderingsconstructies",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "0ced9d26-fcf2-404f-9c1f-1ad16f145290",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "9152758b-dd13-4a01-9bd3-15c262bb5e2b",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "voeten en balken algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "id": "2f756ea2-f9e9-4d4a-b1f2-5a81f16811be",
+      "tasks": []
+    },
+    {
+      "name": "funderingsconstructies",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "8c75b987-3437-4aae-b848-174924fe8ff2",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "keerwanden algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "id": "6cc91669-64d2-4350-b485-939dc9e0bbd0",
+      "tasks": []
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "0ced9d26-fcf2-404f-9c1f-1ad16f145290",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "0a24cf61-a389-4bb8-beba-34b36bb7d830",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "metselwerk",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "id": "149f4d10-00b7-45cc-ba4b-2ff76dfac88b",
+      "tasks": []
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "f5be7288-99cf-43aa-aa8a-4e12216a34f4",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "metselwerk",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "id": "9c50b3c0-9367-41b1-84e6-9e24a7e5a7ff",
+      "tasks": []
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "422f0c44-b1c6-46b8-9f89-bb4d32303c5d",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "zink",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "b893e50d-1417-49bd-8ffa-dadc0e475603"
+    },
+    {
+      "name": "trappen en hellingen",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "f9ef0b26-0294-47d4-bad5-173217b2faef",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "trappen algemeen",
+      "material": "beton ",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "4b702128-bb05-4f38-8bc0-6de81ae016c6"
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "1416d659-4aee-4581-b31f-4da1dae4a6d7",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [
+        "liften en installaties"
+      ],
+      "type": "niet constructief algemeen",
+      "material": "metselwerk",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "1f9b374b-f67d-45c4-baed-565bcbcc05e4"
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "0572b13e-0cce-4eab-822b-a329508ce570",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "",
+          "tasks": [],
+          "overallConditionScore": 3,
+          "mistakes": [
+            {
+              "id": "8d774af0-aa2d-46a5-9796-5cef27ce2b0f",
+              "category": "eferfefe",
+              "severity": "ernstig",
+              "omvang": "",
+              "description": "gffdgdf",
+              "images": []
+            }
+          ],
+          "remarks": "",
+          "name": "",
+          "images": [],
+          "documents": [],
+          "useVangnet": false
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "15587c78-f7e0-4758-825b-7adb506a022a"
+    },
+    {
+      "name": "hoofddraagconstructie",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "4a8c19f0-0d54-48e6-a014-f55bdfe04ebd",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "642dd6a7-a087-4bd1-8387-94ca7b7bee3a",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "kolommen en liggers algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "aced5d76-a59f-4263-b3f5-8a153edde691"
+    },
+    {
+      "name": "daken",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "5897d35a-38db-4b77-abff-36fd9566a13b",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "constructief algemeen",
+      "material": "staal",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "7fc1af98-7995-42d2-be8c-40aed7356e2a"
+    },
+    {
+      "name": "binnenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [
+          "Scheuren constructief"
+        ],
+        "serieus": [
+          "Deformatie, scheefstand",
+          "Beschadiging"
+        ],
+        "gering": [
+          "Bevestiging secundair, manco"
+        ]
+      },
+      "inspectionReport": [],
+      "annotations": [],
+      "categories": [],
+      "type": "constructief algemeen",
+      "material": "beton",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "dd2eb326-1479-442d-8fce-697e19e9cdf3"
+    },
+    {
+      "name": "binnenwandopening",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "47e725b6-58ef-402d-bec2-966f6532ae21",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "gevuld met puien algemeen",
+      "material": "aluminium",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "5ac5796a-0dd6-4772-863f-fa82da0b68bd"
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "4a9edc01-7b04-4497-a9d1-9f0878114227",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "metselwerk",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "d94d2422-d3a1-4852-b4cc-8599f00655b7"
+    },
+    {
+      "name": "vloeren",
+      "description": "",
+      "inspectionDate": null,
+      "interval": 0,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "a33dc4e4-0214-4376-97ce-950af898e41e",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "onbepaald",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "44271ba0-3f06-4327-9727-ab5e35fe1f9d"
+    },
+    {
+      "name": "paalfunderingen",
+      "description": "",
+      "inspectionDate": null,
+      "interval": 0,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [
+          "Verzakking constructief",
+          "Houtrot",
+          "Ongedierte"
+        ],
+        "serieus": [
+          "Doorbuiging",
+          "Verzakking niet constructief"
+        ],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "8557f60e-e433-4965-a9bf-9f769e448b25",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet geheid algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "d696bc46-603e-4226-a171-fcd56ae59a41"
+    },
+    {
+      "name": "buitenwanden",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "65b8c5d0-1a36-4272-90e7-e10632de0655",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": null,
+          "tasks": [],
+          "overallConditionScore": 0,
+          "mistakes": [],
+          "remarks": ""
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet constructief algemeen",
+      "material": "zink",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "unitType": "",
+      "quantity": "",
+      "tasks": [],
+      "id": "ccd596fd-356f-454a-a582-41166a1131a3"
+    },
+    {
+      "name": "paalfunderingen",
+      "inspectionDate": null,
+      "documents": [],
+      "photos": [],
+      "spaceId": "",
+      "gebreken": {
+        "ernstig": [
+          "Verzakking constructief",
+          "Houtrot",
+          "Ongedierte"
+        ],
+        "serieus": [
+          "Doorbuiging",
+          "Verzakking niet constructief",
+          [
+            "Doorbuiging"
+          ]
+        ],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "6b37fb38-4819-4b8f-817a-6f2b69c11a1c",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "",
+          "tasks": [],
+          "overallConditionScore": 5,
+          "name": "paalfunderingen",
+          "images": [],
+          "documents": [],
+          "mistakes": [
+            {
+              "id": "e6e5fc66-da45-4ce8-9e5e-5285aa69584f",
+              "category": "Verzakking constructief",
+              "severity": "ernstig",
+              "omvang": "50",
+              "intensity": "1",
+              "description": "",
+              "images": [],
+              "replacementValue": 1
+            },
+            {
+              "id": "15c0955d-e308-4313-9231-2f932b8a07fe",
+              "category": [
+                "Doorbuiging"
+              ],
+              "severity": "serieus",
+              "omvang": "566",
+              "description": "",
+              "images": []
+            }
+          ],
+          "remarks": "",
+          "useVangnet": false
+        }
+      ],
+      "annotations": [],
+      "categories": [],
+      "type": "niet geheid algemeen",
+      "material": "hout",
+      "customMaterial": "",
+      "levensduur": "",
+      "aanschafDatum": "",
+      "vervangingsKosten": "",
+      "tasks": [
+        {
+          "id": "fe5e3c20-8d69-4230-b1ec-471b0ec0dac0",
+          "name": "frferferf",
+          "description": "fergerg",
+          "estimatedPrice": "0555",
+          "ultimateDate": "",
+          "urgency": 6,
+          "images": [],
+          "documents": []
+        }
+      ],
+      "id": "11295c69-f1f8-4103-91ed-e92aaf4ab3b8"
+    },
+    {
+      "id": "09435d16-e007-4287-ab80-e71d5a548041",
+      "name": "Algemeen",
+      "spaceId": "b267d9a8-5663-4d63-97c8-c2c032c4b1a2",
+      "tasks": [
+        {
+          "id": "d5a2c1a0-941a-41e4-a07f-0bedcaaf21ed",
+          "name": "fgdfvdfgfdg",
+          "description": "gfdgfdgfd",
+          "estimatedPrice": "101",
+          "ultimateDate": "",
+          "urgency": 1,
+          "images": [
+            "uploads\\1732047637975-40ee7ca7-957b-4f2d-a197-10b76d06bf8d.webp"
+          ],
+          "documents": []
+        }
+      ],
+      "categories": [
+        "default"
+      ],
+      "gebreken": {
+        "ernstig": [],
+        "serieus": [],
+        "gering": []
+      },
+      "inspectionReport": [
+        {
+          "id": "d5702a4c-df00-4a98-b473-823bb03b4021",
+          "description": "",
+          "inspectionDone": false,
+          "inspectionDate": "",
+          "mistakes": [
+            {
+              "id": "e40a761d-9351-42d1-b6e3-2719881c7afd",
+              "category": "Nieuw Gebrek",
+              "severity": "ernstig",
+              "omvang": "1000",
+              "description": "lhkhjkhjkhj",
+              "images": []
+            }
+          ],
+          "overallConditionScore": 3,
+          "remarks": "",
+          "name": "",
+          "images": [],
+          "documents": [],
+          "useVangnet": false,
+          "tasks": []
+        }
+      ],
+      "annotations": []
+    }
+  ]
+}

@@ -1551,7 +1551,7 @@
       "documents": [
         "uploads\\1723547030146-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
       ],
-      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "image": "http://localhost:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
       "annotations": [
         {
           "x": 0.038175675675675674,
@@ -1573,7 +1573,7 @@
       "documents": [
         "uploads\\1723547874284-Creative Images Needed for 'The Emollians RP' Roblox Game..pdf"
       ],
-      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "image": "http://localhost:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
       "annotations": [
         {
           "x": 0.04628378378378378,
@@ -1590,7 +1590,7 @@
       "description": "de fundering van het gebouw",
       "photos": [],
       "documents": [],
-      "image": "http://34.34.100.96:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
+      "image": "http://localhost:5000/uploads/1723317497370-digitaliseren-plattegrond-bouwtekening-appartementencomplex-vereniging-van-eigenaren-vve-onderhoudsplan_orig.jpg",
       "annotations": [
         {
           "x": 0.04493243243243243,
